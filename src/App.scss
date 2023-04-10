@@ -6,6 +6,10 @@
 
 body {
   font-family: "DM Sans", sans-serif;
+
+  a {
+    text-decoration: none;
+  }
 }
 
 // font
@@ -27,4 +31,7 @@ body {
 }
 .secondary-background {
   background: #0000ff;
+}
+.primary-background {
+  background-color: #041d34;
 }

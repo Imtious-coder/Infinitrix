@@ -1,0 +1,43 @@
+.main-footer {
+  img {
+    width: 300px;
+    height: 60px;
+    padding: 15px 20px;
+    background-color: white;
+    border-top-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+  }
+  p,
+  h5,
+  h6,
+  a {
+    color: white;
+  }
+  p,
+  h6,
+  a {
+    transition: all 0.3s;
+
+    &:hover {
+      color: #0099dc;
+    }
+  }
+  h6 {
+    font-size: 15px;
+    font-weight: 500;
+    margin-bottom: 12px;
+  }
+}
+
+.bottom-footer {
+  color: white;
+  a {
+    color: white;
+    font-size: 18px;
+    transition: all 0.3s;
+
+    &:hover {
+      color: #0099dc;
+    }
+  }
+}
