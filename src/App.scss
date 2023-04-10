@@ -29,8 +29,14 @@ body {
 .base-background {
   background: #0099dc;
 }
+.base-gradient-background {
+  background-image: linear-gradient(90deg, #0000ff99, #009adc91);
+}
 .secondary-background {
   background: #0000ff;
+}
+.secondary-gradient-background {
+  background-image: linear-gradient(90deg, #0000ff, #0099dc);
 }
 .primary-background {
   background-color: #041d34;

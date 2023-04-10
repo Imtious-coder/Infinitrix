@@ -1,11 +1,11 @@
 import React from "react";
-import Meta from "../../components/Meta/Meta";
+import Hero from "../../components/Hero/Hero";
 
 const index = () => {
   return (
-    <div>
-      <Meta title={"Home"} />
-    </div>
+    <>
+      <Hero />
+    </>
   );
 };
 

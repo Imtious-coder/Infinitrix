@@ -1,0 +1,33 @@
+.hero-wrapper {
+  color: white;
+
+  h1 {
+    font-size: 62px;
+    font-weight: 700;
+    line-height: 71px;
+    letter-spacing: 0.5px;
+  }
+  h4 {
+    font-size: 22px;
+    font-weight: 500;
+    line-height: 32px;
+    letter-spacing: 0.5px;
+  }
+  .hero-video {
+    height: 300px;
+    width: 100%;
+  }
+}
+
+@media only screen and (max-width: 450px) {
+  .hero-wrapper {
+    h1 {
+      font-size: 42px;
+      line-height: 48px;
+    }
+    .h4 {
+      font-size: 18px;
+      line-height: 28px;
+    }
+  }
+}
