@@ -24,6 +24,9 @@ body {
 .secondary-color {
   color: #0000ff;
 }
+.white {
+  color: #ffffff;
+}
 
 // background color
 .base-background {
@@ -36,8 +39,14 @@ body {
   background: #0000ff;
 }
 .secondary-gradient-background {
-  background-image: linear-gradient(90deg, #0000ff, #0099dc);
+  background-image: linear-gradient(90deg, #0000ff, #5757ff);
 }
 .primary-background {
   background-color: #041d34;
+}
+.background-white {
+  background: #ffffff;
+}
+.background-E2F0F6 {
+  background: #e2f0f6;
 }
