@@ -18,7 +18,7 @@ const Services = () => {
             </div>
             {serviceData?.map(({ title, description, icon }, index) => {
               return (
-                <div className="col-12 col-md-6 mt-5">
+                <div key={index} className="col-12 col-md-6 mt-5">
                   <div className="cards background-white position-relative p-3 p-sm-5">
                     <div className="position-absolute card-icon secondary-gradient-background white">
                       {icon}
