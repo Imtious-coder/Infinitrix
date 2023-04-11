@@ -10,6 +10,13 @@ import ProdductImage4 from "../Assets/images/HOME/productlogo/hia_img10.png";
 // REVIEW IMAGE
 import ReviewImage1 from "../Assets/images/HOME/review.jpg";
 
+// PARTNERS IN OUR PORTFOLIO IMAGES
+import PartnersImage1 from "../Assets/images/HOME/Partners/alphasense.png";
+import PartnersImage from "../Assets/images/HOME/Partners/scitech.png";
+import PartnersImage2 from "../Assets/images/HOME/Partners/signature.jpg";
+import PartnersImage3 from "../Assets/images/HOME/Partners/svp.jpg";
+import PartnersImage4 from "../Assets/images/HOME/Partners/unilivr";
+
 // SERVICE DATA
 export const serviceData = [
   {
@@ -129,5 +136,29 @@ export const reviewData = [
     designation: "COO, Transsion Bangladesh Limited",
     description:
       "From converting your voice messages to text, to recognizing your customers voice commands and working accordingly, our Speech Technologies are obliged to improve the customer experiences.",
+  },
+];
+
+// PARTNERS IN OUR PORTFOLIO
+export const partnersImage = [
+  {
+    id: 0,
+    image: PartnersImage,
+  },
+  {
+    id: 1,
+    image: PartnersImage1,
+  },
+  {
+    id: 2,
+    image: PartnersImage2,
+  },
+  {
+    id: 3,
+    image: PartnersImage3,
+  },
+  {
+    id: 4,
+    image: PartnersImage4,
   },
 ];

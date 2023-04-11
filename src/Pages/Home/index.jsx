@@ -3,6 +3,7 @@ import ArrangeDemonstration from "../../components/ArrangeDemonstration/ArrangeD
 import Aspiring from "../../components/Aspiring/Aspiring";
 import Hero from "../../components/Hero/Hero";
 import IntelsenseInNumbers from "../../components/IntelsenseInNumbers/IntelsenseInNumbers";
+import PartnersPortfolio from "../../components/PartnersPortfolio/PartnersPortfolio";
 import Products from "../../components/Products/Products";
 import Review from "../../components/Review/Review";
 import Services from "../../components/Services/Services";
@@ -17,6 +18,7 @@ const index = () => {
       <ArrangeDemonstration />
       <Review />
       <IntelsenseInNumbers />
+      <PartnersPortfolio />
     </>
   );
 };
