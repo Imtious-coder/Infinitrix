@@ -3,6 +3,7 @@ import ArrangeDemonstration from "../../components/ArrangeDemonstration/ArrangeD
 import Aspiring from "../../components/Aspiring/Aspiring";
 import Hero from "../../components/Hero/Hero";
 import Products from "../../components/Products/Products";
+import Review from "../../components/Review/Review";
 import Services from "../../components/Services/Services";
 
 const index = () => {
@@ -12,6 +13,7 @@ const index = () => {
       <Services />
       <Aspiring />
       <Products />
+      <Review />
 
       {/*  */}
       <ArrangeDemonstration />

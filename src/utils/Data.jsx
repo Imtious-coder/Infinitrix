@@ -7,6 +7,9 @@ import ProdductImage2 from "../Assets/images/HOME/productlogo/SenseBot.png";
 import ProdductImage1 from "../Assets/images/HOME/productlogo/SenseVoice.png";
 import ProdductImage4 from "../Assets/images/HOME/productlogo/hia_img10.png";
 
+// REVIEW IMAGE
+import ReviewImage1 from "../Assets/images/HOME/review.jpg";
+
 // SERVICE DATA
 export const serviceData = [
   {
@@ -77,4 +80,54 @@ export const productData = [
   //   logo: "/images/New_Images/InsideSense.png",
   //   productLink: "",
   // },
+];
+
+// REVIEW DATA
+export const reviewData = [
+  {
+    id: 0,
+    name: "Shyamol Saha",
+    image: ReviewImage1,
+    designation: "COO, Transsion Bangladesh Limited",
+    description: "From converting your voice messages to text.",
+  },
+  {
+    id: 1,
+    name: "Shyamol Saha",
+    image: ReviewImage1,
+    designation: "COO, Transsion Bangladesh Limited",
+    description:
+      "From converting your voice messages to text, to recognizing your customers voice commands and working accordingly, our Speech Technologies are obliged to improve the customer experiences.",
+  },
+  {
+    id: 2,
+    name: "Shyamol Saha",
+    image: ReviewImage1,
+    designation: "COO, Transsion Bangladesh Limited",
+    description: "From converting your voice .",
+  },
+  {
+    id: 3,
+    name: "Shyamol Saha",
+    image: ReviewImage1,
+    designation: "COO, Transsion Bangladesh Limited",
+    description:
+      "From converting your voice messages to text, to recognizing your customers voice commands and working accordingly, our Speech Technologies are obliged to improve the customer experiences.",
+  },
+  {
+    id: 4,
+    name: "Shyamol Saha",
+    image: ReviewImage1,
+    designation: "COO, Transsion Bangladesh Limited",
+    description:
+      "From converting your voice messages to text, to recognizing your customers voice.",
+  },
+  {
+    id: 5,
+    name: "Shyamol Saha",
+    image: ReviewImage1,
+    designation: "COO, Transsion Bangladesh Limited",
+    description:
+      "From converting your voice messages to text, to recognizing your customers voice commands and working accordingly, our Speech Technologies are obliged to improve the customer experiences.",
+  },
 ];
