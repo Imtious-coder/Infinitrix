@@ -6,7 +6,7 @@ import "./Review.scss";
 const Review = () => {
   return (
     <section className="review-wrapper background-E2F0F6 py-5">
-      <div className="container py-sm-5">
+      <div className="container-xxl py-sm-5">
         <div className="row">
           <div>
             <h2 className="heading text-center mb-4">
@@ -16,7 +16,7 @@ const Review = () => {
               The Next Generation Language Processing & Voice AI Solutions
             </h3>
           </div>
-          <Marquee speed={50} gradient={false}>
+          <Marquee speed={45} gradient={false}>
             {reviewData?.map(
               ({ name, image, description, designation }, index) => {
                 return (

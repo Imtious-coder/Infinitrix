@@ -16,6 +16,7 @@
   }
   .all-card {
     width: 400px;
+
     .cards {
       width: 400px;
       border-radius: 20px;
@@ -26,12 +27,6 @@
         width: 50px;
         border: 2px solid greenyellow;
         border-radius: 100%;
-      }
-      .sub-title {
-        font-size: 22px;
-        font-weight: 500;
-        line-height: 28px;
-        opacity: 0.8;
       }
     }
   }
