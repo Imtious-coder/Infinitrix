@@ -40,6 +40,12 @@ const Footer = () => {
                 <Link to="/blog">
                   <h6>Blog</h6>
                 </Link>
+                <Link to="/about">
+                  <h6>About Us</h6>
+                </Link>
+                <Link to="/investor-relation">
+                  <h6>Investor Relation</h6>
+                </Link>
               </div>
             </div>
             <div className="col-6 col-sm-4 col-md-2 mt-5 mt-md-0">

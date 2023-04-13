@@ -118,7 +118,7 @@ const Header = () => {
                   </div>
                 </div>
                 <Link
-                  to="/investor-realation"
+                  to="/investor-relation"
                   className="nav-link"
                   aria-current="page"
                 >
