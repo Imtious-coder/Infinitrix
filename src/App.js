@@ -2,6 +2,7 @@ import React from 'react';
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import './App.scss';
 import Layout from './Layout/Layout/Layout.jsx';
+import About from './Pages/About/About';
 import Home from './Pages/Home/index.jsx';
 import InvestorRelation from './Pages/InvestorRelation/InvestorRelation';
 
@@ -14,6 +15,7 @@ function App() {
             <Route index element={<Home />} />
             <Route path="/product:id" element={<Home />} />
             <Route path="/investor-realation" element={<InvestorRelation />} />
+            <Route path="/about" element={<About />} />
           </Route>
         </Routes>
       </BrowserRouter>
