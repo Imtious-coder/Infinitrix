@@ -1,5 +1,5 @@
 import React from "react";
-import HistoryImage from "../../Assets/images/ABOUT/history.jpg";
+import HistoryImage from "../../Assets/images/ABOUT/history.png";
 import InfoImage1 from "../../Assets/images/ABOUT/info-image-1.svg";
 import InfoImage from "../../Assets/images/ABOUT/info-image.svg";
 import HeroImage from "../../Assets/images/ABOUT/left-hero-img.svg";
