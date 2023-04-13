@@ -1,8 +1,8 @@
 import React from "react";
-import HistoryImage from "../../Assets/images/ABOUT/history1.png";
 import InfoImage1 from "../../Assets/images/ABOUT/info-image-1.svg";
 import InfoImage from "../../Assets/images/ABOUT/info-image.svg";
 import HeroImage from "../../Assets/images/ABOUT/left-hero-img.svg";
+import HistoryImage from "../../Assets/images/ABOUT/team_intelsense_ai_.jpg";
 import WorkImage from "../../Assets/images/ABOUT/work.webp";
 import "./About.scss";
 
