@@ -30,13 +30,13 @@ const Header = () => {
               id="navbarNavAltMarkup"
             >
               <div className="navbar-nav ms-auto gap-0 gap-lg-3 ps-sm-3 d-flex align-items-center align-items-sm-start align-items-lg-center">
-                <Link to="/" className="nav-link" aria-current="page">
+                <Link to="/" className="nav-link fw-bold" aria-current="page">
                   Home
                 </Link>
                 <div className="nav-link" aria-current="page">
                   <div className="dropdown">
                     <p
-                      className="dropdown-toggle mb-0"
+                      className="dropdown-toggle mb-0 fw-bold"
                       data-bs-toggle="dropdown"
                       aria-expanded="false"
                     >
@@ -94,7 +94,7 @@ const Header = () => {
                 <div className="nav-link" aria-current="page">
                   <div className="dropdown">
                     <p
-                      className="dropdown-toggle mb-0"
+                      className="dropdown-toggle mb-0 fw-bold"
                       data-bs-toggle="dropdown"
                       aria-expanded="false"
                     >
@@ -119,15 +119,23 @@ const Header = () => {
                 </div>
                 <Link
                   to="/investor-relation"
-                  className="nav-link"
+                  className="nav-link fw-bold"
                   aria-current="page"
                 >
                   Investor Realation
                 </Link>
-                <Link to="/blog" className="nav-link" aria-current="page">
+                <Link
+                  to="/blog"
+                  className="nav-link fw-bold"
+                  aria-current="page"
+                >
                   Blogs
                 </Link>
-                <Link to="/contact" className="nav-link" aria-current="page">
+                <Link
+                  to="/contact"
+                  className="nav-link fw-bold"
+                  aria-current="page"
+                >
                   Contact
                 </Link>
               </div>

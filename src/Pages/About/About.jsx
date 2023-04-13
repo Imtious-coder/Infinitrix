@@ -162,11 +162,13 @@ const About = () => {
               </h2>
               {/* image */}
               <div className="col-12 col-md-5 px-5 ps-md-0 rounded-4">
-                <img
-                  src={HistoryImage}
-                  className="img-fluid rounded-4"
-                  alt="history_image"
-                />
+                <div>
+                  <img
+                    src={HistoryImage}
+                    className="img-fluid rounded-4"
+                    alt="history_image"
+                  />
+                </div>
               </div>
               {/* history */}
               <div className="col-12 col-md-7 white mx-md-0 mt-5 mt-md-0">
