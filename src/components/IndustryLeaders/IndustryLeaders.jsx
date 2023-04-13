@@ -10,11 +10,11 @@ const IndustryLeaders = () => {
         <div className="container-lg">
           <div
             id="carouselExampleControls"
-            class="carousel slide"
+            className="carousel slide"
             data-bs-ride="carousel"
           >
-            <div class="carousel-inner">
-              <div class="carousel-item active">
+            <div className="carousel-inner">
+              <div className="carousel-item active">
                 <div className="row">
                   <div className="col-12 col-md-3 px-5 pe-md-0">
                     <div className="rounded-3 position-relative">
@@ -47,7 +47,7 @@ const IndustryLeaders = () => {
                   </div>
                 </div>
               </div>
-              <div class="carousel-item">
+              <div className="carousel-item">
                 <div className="row">
                   <div className="col-12 col-md-3 px-5 pe-md-0">
                     <div className="rounded-3 position-relative">
@@ -80,7 +80,7 @@ const IndustryLeaders = () => {
                   </div>
                 </div>
               </div>
-              <div class="carousel-item">
+              <div className="carousel-item">
                 <div className="row">
                   <div className="col-12 col-md-3 px-5 pe-md-0">
                     <div className="rounded-3 position-relative">
