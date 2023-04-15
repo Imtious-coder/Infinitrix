@@ -12,7 +12,7 @@ const Product = () => {
     <>
       <section className="product-wrapper">
         <div className="hero py-5 background-1E1F2E">
-          <h2 className="heading fw-bold white"> Our Products</h2>
+          <h2 className="heading fw-bold white">Our Products</h2>
         </div>
         {/* products */}
         <div className="single-product overflow-hidden">
