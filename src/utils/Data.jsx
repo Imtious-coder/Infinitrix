@@ -17,6 +17,9 @@ import PartnersImage2 from "../Assets/images/HOME/Partners/signature.jpg";
 import PartnersImage3 from "../Assets/images/HOME/Partners/svp.jpg";
 import PartnersImage4 from "../Assets/images/HOME/Partners/unilivr";
 
+// BLOG IMAGES
+import BlogImage1 from "../Assets/images/BLOG/SenseVoice.jpg";
+
 // SERVICE DATA
 export const serviceData = [
   {
@@ -160,5 +163,58 @@ export const partnersImage = [
   {
     id: 4,
     image: PartnersImage4,
+  },
+];
+
+// BLOG DATA
+export const blogData = [
+  {
+    id: 1,
+    image: BlogImage1,
+    title: "Introducing Sense Voice",
+    subtitle:
+      "Sense Voice is a AI-driven Voice Assistant to transform your digital shopping experience",
+  },
+  {
+    id: 2,
+    image: BlogImage1,
+    title: "Introducing Sense Voice",
+    subtitle:
+      "Sense Voice is a AI-driven Voice Assistant to transform your digital shopping experience",
+  },
+  {
+    id: 3,
+    image: BlogImage1,
+    title: "Introducing Sense Voice",
+    subtitle:
+      "Sense Voice is a AI-driven Voice Assistant to transform your digital shopping experience",
+  },
+  {
+    id: 4,
+    image: BlogImage1,
+    title: "Introducing Sense Voice",
+    subtitle:
+      "Sense Voice is a AI-driven Voice Assistant to transform your digital shopping experience",
+  },
+  {
+    id: 5,
+    image: BlogImage1,
+    title: "Introducing Sense Voice",
+    subtitle:
+      "Sense Voice is a AI-driven Voice Assistant to transform your digital shopping experience",
+  },
+  {
+    id: 6,
+    image: BlogImage1,
+    title: "Introducing Sense Voice",
+    subtitle:
+      "Sense Voice is a AI-driven Voice Assistant to transform your digital shopping experience",
+  },
+  {
+    id: 7,
+    image: BlogImage1,
+    title: "Introducing Sense Voice",
+    subtitle:
+      "Sense Voice is a AI-driven Voice Assistant to transform your digital shopping experience",
   },
 ];

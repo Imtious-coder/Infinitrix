@@ -1,4 +1,5 @@
 import React from "react";
+import Meta from "../../components/Meta/Meta";
 import "./Product.scss";
 // PRODUCT IMAGES
 import { Link } from "react-router-dom";
@@ -10,8 +11,9 @@ import ProdductImage4 from "../../Assets/images/HOME/productlogo/hia_img1.png";
 const Product = () => {
   return (
     <>
+      <Meta title={"Products"} />
       <section className="product-wrapper">
-        <div className="hero py-5 background-1E1F2E">
+        <div className="hero py-5 base-gradient-background">
           <h2 className="heading fw-bold white">Our Products</h2>
         </div>
         {/* products */}

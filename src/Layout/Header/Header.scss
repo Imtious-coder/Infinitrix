@@ -1,4 +1,7 @@
 .header-wrapper {
+  backdrop-filter: blur(20px);
+  background: hsla(0, 0%, 100%, 0.2);
+
   img {
     height: 35px;
     width: 200px;
@@ -12,7 +15,7 @@
     cursor: pointer;
 
     &:hover {
-      color: #0000ff;
+      color: #0099dc;
     }
   }
 }

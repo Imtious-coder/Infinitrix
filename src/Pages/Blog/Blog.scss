@@ -1,0 +1,84 @@
+.blog-wrapper {
+  .blog-heading {
+    font-size: 72px;
+    font-weight: 700;
+    line-height: 78px;
+    text-align: center;
+  }
+  .blogs {
+    border: none;
+    border-radius: 10px;
+    overflow: hidden;
+
+    .blog-card {
+      width: 31%;
+      margin: 0px 1%;
+      border-radius: 10px;
+      border: 1px solid rgb(203, 203, 203);
+
+      .cardNumber {
+        top: 0;
+        left: 0;
+        width: 100px;
+        height: 100px;
+        background-color: #1b9bff;
+        border-top-left-radius: 5px;
+        clip-path: polygon(0 0, 100% 0, 0 100%);
+
+        p {
+          font-size: 24px;
+          color: white;
+          font-weight: 700;
+          padding: 10px 20px;
+        }
+      }
+      .cards {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        justify-content: center;
+        align-items: center;
+
+        .logo {
+          color: #1b9bff;
+        }
+        .cardDetails {
+          h2 {
+            font-size: 26px;
+            font-weight: 600;
+            color: #494949;
+            text-align: center;
+          }
+          h5 {
+            font-size: 15px;
+            font-weight: 500;
+            color: #6c757d;
+            line-height: 25px;
+            word-spacing: 3px;
+            text-align: center;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .blog-wrapper {
+    .blogs {
+      .blog-card {
+        width: 46%;
+        margin: 0px 2%;
+      }
+    }
+  }
+}
+@media only screen and (max-width: 576px) {
+  .blog-wrapper {
+    .blogs {
+      .blog-card {
+        width: 100%;
+      }
+    }
+  }
+}

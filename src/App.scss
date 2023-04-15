@@ -21,11 +21,16 @@ body {
 .base-color {
   color: #0099dc;
 }
+.base-hvr-color {
+  &:hover {
+    color: #0099dc;
+  }
+}
 .secondary-color {
   color: #0000ff;
 }
 .white {
-  color: #dddddd;
+  color: #ffffff;
 }
 
 // background color

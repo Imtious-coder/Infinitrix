@@ -6,7 +6,7 @@ import "./Header.scss";
 const Header = () => {
   return (
     <>
-      <header className="header-wrapper py-3 top-sticky shadow-sm">
+      <header className="header-wrapper py-3 top-sticky shadow-sm sticky-top">
         <nav className="navbar navbar-expand-lg">
           <div className="container-xxl d-flex justify-content-between align-items-center">
             {/* logo */}
@@ -25,10 +25,7 @@ const Header = () => {
               <span className="navbar-toggler-icon"></span>
             </button>
             {/* navigations */}
-            <div
-              className="collapse navbar-collapse pt-4 pt-lg-0"
-              id="navbarNavAltMarkup"
-            >
+            <div className="collapse navbar-collapse" id="navbarNavAltMarkup">
               <div className="navbar-nav ms-auto gap-0 gap-lg-3 ps-sm-3 d-flex align-items-center align-items-sm-start align-items-lg-center">
                 <Link to="/" className="nav-link fw-bold" aria-current="page">
                   Home
@@ -100,7 +97,7 @@ const Header = () => {
                     >
                       Company
                     </p>
-                    <ul className="dropdown-menu p-0">
+                    <ul className="dropdown-menu p-0 py-2">
                       <li>
                         <Link
                           to="/about"
