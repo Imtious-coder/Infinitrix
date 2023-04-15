@@ -45,7 +45,7 @@ const Header = () => {
                     <ul className="dropdown-menu">
                       <li>
                         <Link
-                          to="/products"
+                          to="/product"
                           className="dropdown-item py-2 border-bottom"
                         >
                           Overview

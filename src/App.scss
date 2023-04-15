@@ -90,9 +90,23 @@ body {
   border-radius: 5px;
   font-size: 18px !important;
   background-color: #001222;
-  // background-image: linear-gradient(90deg, #2a2aff, #5757ff);
 
   &:hover {
     background-color: #002444d2;
+  }
+}
+.button2 {
+  border: none;
+  outline: none;
+  color: #ffffff;
+  border-radius: 5px;
+  font-size: 16px !important;
+  font-weight: 500;
+  border-radius: 50px;
+  padding: 8px 40px;
+  background-image: linear-gradient(90deg, #2a2aff, #5757ff);
+
+  &:hover {
+    background-image: linear-gradient(190deg, #2a2aff, #5757ff);
   }
 }

@@ -39,7 +39,7 @@ export const serviceData = [
 export const productData = [
   {
     id: 0,
-    title: "Sensebots",
+    title: "Sensevoice",
     subtitle:
       "Transcription Platform supported by Custom Built Speech Recognition & Text To Speech Engine.",
     discription:

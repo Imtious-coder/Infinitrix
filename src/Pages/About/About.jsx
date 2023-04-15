@@ -71,7 +71,7 @@ const About = () => {
                   alt="info_Image"
                   className="d-block mx-auto me-sm-0 mb-3"
                 />
-                <h3 className="sub-heading base-color fw-bold fs-5 text-sm-end mb-3 pb-1 mb-sm-0">
+                <h3 className="sub-heading base-color fw-bold  text-sm-end mb-3 pb-1 mb-sm-0">
                   WHAT WE DO
                 </h3>
                 <p>
@@ -107,7 +107,7 @@ const About = () => {
                   alt="info_Image"
                   className="d-block mx-auto me-sm-0 mb-3"
                 />
-                <h3 className="sub-heading base-color fw-bold fs-5 text-sm-end mb-3 mb-sm-0 pb-1">
+                <h3 className="sub-heading base-color fw-bold  text-sm-end mb-3 mb-sm-0 pb-1">
                   OUR MISSION
                 </h3>
                 <p>
@@ -139,7 +139,7 @@ const About = () => {
                   alt="info_Image"
                   className="d-block mx-auto me-sm-0 mb-3"
                 />
-                <h3 className="sub-heading base-color fw-bold fs-5 text-sm-end mb-3 mb-sm-0 pb-1">
+                <h3 className="sub-heading base-color fw-bold  text-sm-end mb-3 mb-sm-0 pb-1">
                   LEADING THE MOVEMENT
                 </h3>
                 <p>
@@ -173,46 +173,46 @@ const About = () => {
               {/* history */}
               <div className="col-12 col-md-7 white mx-md-0 mt-5 mt-md-0">
                 <div className="d-flex flex-column flex-sm-row gap-sm-5 mb-4 mb-sm-0">
-                  <p className="year fs-5 fw-bold text-center text-sm-start mb-0">
+                  <p className="year  fw-bold text-center text-sm-start mb-0">
                     1990
                   </p>
-                  <p className="info fs-5 fw-bold text-center text-sm-start">
+                  <p className="info  fw-bold text-center text-sm-start">
                     Founded By Rumman Arefin. Current CEO
                   </p>
                 </div>
                 <div className="d-flex flex-column flex-sm-row gap-sm-5 mb-4 mb-sm-0">
-                  <p className="year fs-5 fw-bold text-center text-sm-start mb-0">
+                  <p className="year  fw-bold text-center text-sm-start mb-0">
                     1999
                   </p>
-                  <p className="info fs-5 fw-bold text-center text-sm-start">
+                  <p className="info  fw-bold text-center text-sm-start">
                     Introduced HIA. And got a huge success. Top 5 products of
                     IntelsenseAI.
                   </p>
                 </div>
                 <div className="d-flex flex-column flex-sm-row gap-sm-5 mb-4 mb-sm-0">
-                  <p className="year fs-5 fw-bold text-center text-sm-start mb-0">
+                  <p className="year  fw-bold text-center text-sm-start mb-0">
                     2001
                   </p>
-                  <p className="info fs-5 fw-bold text-center text-sm-start">
+                  <p className="info  fw-bold text-center text-sm-start">
                     Lorem ipsum dolor sit, amet consectetur adipisicing elit.
                     Ipsa, atque!
                   </p>
                 </div>
                 <div className="d-flex flex-column flex-sm-row gap-sm-5 mb-4 mb-sm-0">
-                  <p className="yyear fs-5 fw-bold text-center text-sm-start mb-0">
+                  <p className="yyear  fw-bold text-center text-sm-start mb-0">
                     2012
                   </p>
-                  <p className="info fs-5 fw-bold text-center text-sm-start">
+                  <p className="info  fw-bold text-center text-sm-start">
                     Lorem ipsum dolor sit amet consectetur, adipisicing elit.
                     Cum vitae sapiente consequatur. Beatae dignissimos eaque
                     fuga autem minus rerum inventore.
                   </p>
                 </div>
                 <div className="d-flex flex-column flex-sm-row gap-sm-5 mb-4 mb-sm-0">
-                  <p className="year fs-5 fw-bold text-center text-sm-start mb-0">
+                  <p className="year  fw-bold text-center text-sm-start mb-0">
                     2021
                   </p>
-                  <p className="info fs-5 fw-bold text-center text-sm-start">
+                  <p className="info  fw-bold text-center text-sm-start">
                     Lorem ipsum dolor sit amet consectetur.
                   </p>
                 </div>
@@ -256,7 +256,7 @@ const About = () => {
                   alt="info_Image"
                   className="d-block mx-auto me-sm-0 mb-3 info-image"
                 />
-                <h3 className="sub-heading base-color fw-bold fs-5 text-sm-end mb-3 mb-sm-0 pb-1">
+                <h3 className="sub-heading base-color fw-bold  text-sm-end mb-3 mb-sm-0 pb-1">
                   LEADING THE MOVEMENT
                 </h3>
                 <p>
