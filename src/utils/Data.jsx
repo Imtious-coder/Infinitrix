@@ -1,6 +1,10 @@
 import { BiUserVoice } from "react-icons/bi";
 import { GiProcessor } from "react-icons/gi";
 
+// SERVICE IMAGE
+import ServiceImage1 from "../Assets/images/HOME/services/services-easy1.png";
+import ServiceImage2 from "../Assets/images/HOME/services/services-easy2.png";
+
 // PRODUCT IMAGES
 import ProdductImage3 from "../Assets/images/HOME/productlogo/Airvoice.png";
 import ProdductImage2 from "../Assets/images/HOME/productlogo/SenseBot.png";
@@ -35,6 +39,32 @@ export const serviceData = [
     title: "Natural Language Processing",
     description:
       "Our NLP capabilities ensure the utmost benefit to your business, helping your business communicate with your customers in their own languages, making it possible to interpret speech or texts intuitively, measure sentiment and enable you to take data driven decisions effectively.",
+  },
+];
+export const serviceData2 = [
+  {
+    id: 0,
+    image: ServiceImage1,
+    title: "Automatic Speech Recognition",
+    subtitle: "Speech-to-Text",
+    description:
+      "IntelsenseAI’s ASR converts speech into text utilizing patented approaches in neural network technology for precise transcriptions of audio from a variety of sources and dozens of languages and dialects across narrowband telephony and wideband Media and Entertainment broadcast content.",
+  },
+  {
+    id: 1,
+    image: ServiceImage2,
+    title: "Natural Language Understanding",
+    subtitle: "Text-to-Meaning",
+    description:
+      "IntelsenseAI’s NLU technology seamlessly analyzes and identifies valuable context and “meaning” from documents, recordings or conversations, extracting and interpreting important context utilizing deep neural network and machine learning technologies.",
+  },
+  {
+    id: 2,
+    image: ServiceImage1,
+    title: "Neural Speech Synthesis",
+    subtitle: "Text-to-Speech",
+    description:
+      "IntelsenseAI’s neural text-to-speech (TTS) technologies produce high quality natural sounding synthesized speech offered in a wide variety of voices and languages.  Create custom voices from your own recordings to offer a unique voice for your brand or consumer-facing application.",
   },
 ];
 

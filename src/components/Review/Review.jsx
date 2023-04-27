@@ -5,7 +5,7 @@ import "./Review.scss";
 
 const Review = () => {
   return (
-    <section className="review-wrapper background-E2F0F6 py-5">
+    <section className="review-wrapper background-E2F0F6 py-5 overflow-hidden">
       <div className="py-sm-5">
         <div className="row">
           <div>

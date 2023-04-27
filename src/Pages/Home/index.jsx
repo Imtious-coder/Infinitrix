@@ -12,6 +12,7 @@ import Services from "../../components/Services/Services";
 const index = () => {
   return (
     <>
+    
       <Hero />
       <Services />
       <Aspiring />

@@ -1,10 +1,13 @@
 import React from "react";
-import { serviceData } from "../../utils/Data";
+import { Link } from "react-router-dom";
+import { serviceData, serviceData2 } from "../../utils/Data";
+import Meta from "../Meta/Meta";
 import "./Services.scss";
 
 const Services = () => {
   return (
     <>
+      <Meta title={"IntelsenseAI | Sense The Future"} />
       <section className="services-wrapper background-E2F0F6 py-5">
         <div className="container py-sm-5">
           <div className="row">
@@ -31,6 +34,41 @@ const Services = () => {
                 </div>
               );
             })}
+          </div>
+          <div className="row justify-content-center pt-5 mt-5">
+            <div>
+              <h2 className="heading text-center mb-4">
+                <strong>Service made easy </strong> for you to understand
+              </h2>
+            </div>
+            {serviceData2?.map(
+              ({ image, title, subtitle, description }, index) => {
+                return (
+                  <div
+                    key={index}
+                    className="col-12 col-md-6 col-lg-4 mt-5 px-3"
+                  >
+                    <div className="bg-white py-5 px-2 rounded-4 shadow-sm">
+                      <h4 className="title text-center px-4 fw-bold fs-3 mb-3">
+                        {title}
+                      </h4>
+                      <h5 className="subtitle text-center">{subtitle}</h5>
+                      <img
+                        src={image}
+                        className="img-fluid p-4"
+                        alt="service_image"
+                      />
+                      <h6 className="text-center px-3">{description}</h6>
+                      <Link to="/comming-soon">
+                        <button className="button white d-block px-4 py-2 mt-5 mx-auto">
+                          Learn More
+                        </button>
+                      </Link>
+                    </div>
+                  </div>
+                );
+              }
+            )}
           </div>
         </div>
       </section>
