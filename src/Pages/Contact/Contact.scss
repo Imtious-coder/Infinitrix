@@ -1,0 +1,17 @@
+.contact-wrapper {
+  .hero {
+    background: url(../../Assets/images/CONTACT/bg01.png);
+  }
+
+  .map iframe {
+    width: 100%;
+    min-height: 250px;
+    border-radius: 10px;
+  }
+
+  .agreement {
+    font-size: 12px;
+    line-height: 16px;
+    opacity: .5;
+  }
+}
