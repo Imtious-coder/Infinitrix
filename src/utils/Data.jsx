@@ -7,9 +7,9 @@ import ServiceImage2 from "../Assets/images/HOME/services/services-easy2.png";
 
 // PRODUCT IMAGES
 import ProdductImage3 from "../Assets/images/HOME/productlogo/Airvoice.png";
+import ProdductImage4 from "../Assets/images/HOME/productlogo/Hia Logo.png";
 import ProdductImage2 from "../Assets/images/HOME/productlogo/SenseBot.png";
 import ProdductImage1 from "../Assets/images/HOME/productlogo/SenseVoice.png";
-import ProdductImage4 from "../Assets/images/HOME/productlogo/hia_img10.png";
 
 // REVIEW IMAGE
 import ReviewImage2 from "../Assets/images/HOME/Reviews/m.jpg";
@@ -24,6 +24,7 @@ import PartnersImage4 from "../Assets/images/HOME/Partners/unilivr";
 
 // BLOG IMAGES
 import BlogImage1 from "../Assets/images/BLOG/SenseVoice.jpg";
+import BlogImage2 from "../Assets/images/BLOG/blog2.jpg";
 
 // SERVICE DATA
 export const serviceData = [
@@ -80,6 +81,8 @@ export const productData = [
       "Our Automatic Speech Recognition engine leverages the most advanced forms of Deep Learning.",
     link: "#",
     logo: ProdductImage1,
+    height: 80,
+    width: 250,
   },
   {
     id: 1,
@@ -89,6 +92,8 @@ export const productData = [
       "Our Automatic Speech Recognition engine leverages the most advanced forms of Deep Learning.",
     link: "#",
     logo: ProdductImage2,
+    height: 140,
+    width: 250,
   },
   {
     id: 2,
@@ -98,7 +103,8 @@ export const productData = [
       "Intelsense's HIA is the first technology that can understand and assess information in Bengali. By using a smartphone, a user can carry out transactions, communicate, seek medical aid, etc. ",
     link: "#",
     logo: ProdductImage3,
-    productLink: "",
+    height: 140,
+    width: 250,
   },
   {
     id: 3,
@@ -109,7 +115,8 @@ export const productData = [
       "Intelsense's HIA is the first technology that can understand and assess information in Bengali. By using a smartphone, a user can carry out transactions, communicate, seek medical aid, etc. ",
     link: "#",
     logo: ProdductImage4,
-    productLink: "",
+    height: 30,
+    width: 80,
   },
   // {
   //   id: 3,
@@ -214,49 +221,59 @@ export const blogData = [
   {
     id: 1,
     image: BlogImage1,
-    title: "Introducing Sense Voice",
+    title:
+      "Introducing Sense Voice, an AI-driven Voice Assistant to transform your digital shopping experience",
     subtitle:
       "Sense Voice is a AI-driven Voice Assistant to transform your digital shopping experience",
+    li1: "What is Voice Commerce Ever wondered about getting instant answers in the form of “speech” rather than typing? Well, it is no longer a mystery, rather a reality nowadays . Voice Commerce refers to the use of voice based solutions to search and purchase products from an e-commerce platform. This is like talking to the website. Customer needs to voice out which product or service he is looking for, the platform will seamlessly execute this command through ‘Artificial Intelligence’ and ‘Natural Language Processing’ technology.",
+    li2: "Voice commerce is indeed a new age of e-commerce. Conversational AI simplifies any task for the e-commerce customers. Online retailers can now allow their customers to look for items, place the order, make payment as per preference, track the order status and provide post delivery feedback. Furthermore, these command histories can be used to make future orders.",
+    li3: "How Voice Commerce helps E-Commerce Brands: One of the biggest challenges in e-commerce is that the potential customers are dropping off before executing a purchase. The most common reasons are either because the customers are unable to decide which products to buy or simply they fail to execute the research. This is exactly where voice commerce comes to play. There are so many alternatives in the market nowadays that almost everyone seems to be in a quandary to select which one to purchase. With Voice Commerce, people can just utter the product they are looking for; for example “what are the best mobile covers under 500 bdt”. The intelligent voice assistant will instantly scan all relevant data  to find you the best possible cover and alternatives. This not only smoothens the user experience, but also streamlines the operation for the e-commerce as they no longer are required to invest extra resources in this. Basically, voice commerce is the language of the customer's choice. ",
+    li4: "Trends & Use Cases of Voice Commerce: Voice Commerce is indeed a game changer for the industry. Researchers predict that by 2022, voice based shopping will penetrate about 55% of all American households, hitting about 40 billion dollars by that time. This platform will be a pivotal part of the user experience strategy. Following are the list of trends and uses of voice commerce- ",
+    li5: "01. Personalized shopping experience: voice commerce will personalize the shopping experiences with the use of recommendations based on individual preferences. Suppose, a customer is exploring Daraz to buy electronic appliances for households. The voice assistant in the platform can better suggest the trending electronics that are hitting the market. It will help the customer with better informed decision making and enable repetitive buying.",
+    li6: "02. Suggest better reviews: Another major advantage of using voice commerce is that it has the power to suggest better customer recommendations and reviews. The ease and convenience of reviewing products make them more meaningful and genuine. Voice assistants certainly reduce the task of typing long feedbacks. It rather asks for very specific queries and meaningful answers. Ever wondered about getting instant answers in the form of “speech” rather than typing? Well, it is no longer a mystery, rather a reality nowadays . Voice Commerce refers to the use of voice based solutions to search and purchase products from an e-commerce platform. This is like talking to the website. Customer needs to voice out which product or service he is looking for, the platform will seamlessly execute this command through ‘Artificial Intelligence’ and ‘Natural Language Processing’ technology. Voice commerce is indeed a new age of e-commerce. Conversational AI simplifies any task for the e-commerce customers. Online retailers can now allow their customers to look for items, place the order, make payment as per preference, track the order status and provide post delivery feedback. Furthermore, these command histories can be used to make future orders. ",
+    li7: "How Voice Commerce helps E-Commerce Brands: One of the biggest challenges in e-commerce is that the potential customers are dropping off before executing a purchase. The most common reasons are either because the customers are unable to decide which products to buy or simply they fail to execute the research. This is exactly where voice commerce comes to play. There are so many alternatives in the market nowadays that almost everyone seems to be in a quandary to select which one to purchase. With Voice Commerce, people can just utter the product they are looking for; for example “what are the best mobile covers under 500 bdt”. The intelligent voice assistant will instantly scan all relevant data  to find you the best possible cover and alternatives. This not only smoothens the user experience, but also streamlines the operation for the e-commerce as they no longer are required to invest extra resources in this. Basically, voice commerce is the language of the customer's choice.   ",
+    li8: "Trends & Use Cases of Voice Commerce: Voice Commerce is indeed a game changer for the industry. Researchers predict that by 2022, voice based shopping will penetrate about 55% of all American households, hitting about 40 billion dollars by that time. This platform will be a pivotal part of the user experience strategy. Following are the list of trends and uses of voice commerce-  ",
+    li9: "01. Personalized shopping experience: voice commerce will personalize the shopping experiences with the use of recommendations based on individual preferences. Suppose, a customer is exploring Daraz to buy electronic appliances for households. The voice assistant in the platform can better suggest the trending electronics that are hitting the market. It will help the customer with better informed decision making and enable repetitive buying.",
+    li10: "02. Suggest better reviews: Another major advantage of using voice commerce is that it has the power to suggest better customer recommendations and reviews. The ease and convenience of reviewing products make them more meaningful and genuine. Voice assistants certainly reduce the task of typing long feedbacks. It rather asks for very specific queries and meaningful answers. ",
+    li11: "03. Time efficient: Research claimed that about 62% of the respondents would use a voice assistant while multitasking. Because of its effectiveness and responsiveness, people are eager to use voice assistants. The average person normally types around 30 to 35 words per minute. But if one uses a voice assistant, he/she will be able to process about 100 words per minute, resulting in a better output. By using voice assistants, people can shop anywhere at any time while being engaged in other activities. ",
+    li12: "04. Smart Shopping: Voice assistants will be able to let our shopping experience more effectively. It is smart enough to capture our consumer behavior and habits. For example, when we are trying to buy products online, the voice assistant will remind us about the products we have previously missed on the shopping card and recommend better products in the market. This is a huge competitive advantage for our local premium brands. ",
+    li13: "How Intelsense.Ai will contribute towards establishing voice commerce: According to the recent data, there are 43 registered e-commerces in Bangladesh. Ranging from product search to payment checkout, voice assistants can vastly improve the user experience of the customers generating incremental transactions in the platform. It has already been proven to be a great asset for any industry, regardless of the size and scale of the organization. Intelsense AI has come up with AI Driven voice commerce technology- ‘SenseVoice’. It is the only voice commerce AI that can interpret and respond to both Bangla and English voice commands and conversations. From minimizing  costs to increasing customer satisfaction, Voice assistants can be a game changer. Generation Z are being greatly benefited around the world by this solution which leads to higher service adoptions for the e-commerce industry. ",
+    li14: "About Intelsense AI Intelsense AI is dedicated to making the world a better place. SenseVoice, the voice-based voice commerce, is the first technology to interpret and analyze information as well as execute voice commands in both Bengali and English, and is one of the company's existing AI-driven revolutionary solutions. With its unique conversational ai solution, it is constantly reinventing the user experience. Intelsense AI is bringing insurgence in the field of technology, and it's now on board to be the next big thing in the e-commerce industry in Bangladesh. With the brand slogan ‘sense the beyond’, Intelsense.ai is bringing insurgence in the field of technology, and it's now on board to be the next big thing in the e-commerce industry in Bangladesh.",
+    li15: "To learn more about existing features and offerings of Intelsense AI, have a visit at https://intelsense.ai/.",
   },
   {
     id: 2,
     image: BlogImage1,
-    title: "Introducing Sense Voice",
+    title:
+      "How AI & Voice Technology can Revolutionize the Financial Industry in Bangladesh",
     subtitle:
       "Sense Voice is a AI-driven Voice Assistant to transform your digital shopping experience",
   },
   {
     id: 3,
     image: BlogImage1,
-    title: "Introducing Sense Voice",
+    title: "How AI is transforming Journalism",
     subtitle:
       "Sense Voice is a AI-driven Voice Assistant to transform your digital shopping experience",
   },
   {
     id: 4,
     image: BlogImage1,
-    title: "Introducing Sense Voice",
+    title: "Intelsense AI: Harnessing innovation with artificial intelligence",
     subtitle:
       "Sense Voice is a AI-driven Voice Assistant to transform your digital shopping experience",
   },
   {
     id: 5,
     image: BlogImage1,
-    title: "Introducing Sense Voice",
+    title: "The History And Evolution Of Conversational AI",
     subtitle:
       "Sense Voice is a AI-driven Voice Assistant to transform your digital shopping experience",
   },
   {
     id: 6,
-    image: BlogImage1,
-    title: "Introducing Sense Voice",
-    subtitle:
-      "Sense Voice is a AI-driven Voice Assistant to transform your digital shopping experience",
-  },
-  {
-    id: 7,
-    image: BlogImage1,
-    title: "Introducing Sense Voice",
+    image: BlogImage2,
+    title: "How Artificial Intelligence Will Transform Business",
     subtitle:
       "Sense Voice is a AI-driven Voice Assistant to transform your digital shopping experience",
   },

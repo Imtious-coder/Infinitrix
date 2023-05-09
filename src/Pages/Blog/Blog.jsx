@@ -36,7 +36,7 @@ const Blog = () => {
           <div className="container-lg">
             <h2 className="heading base-color fw-bold pb-sm-5">Featured</h2>
             <div className="row justify-content-center px-3">
-              {blogData?.map(({ id, image, title, subtitle }, index) => {
+              {blogData?.map(({ id, image, title, li1 }, index) => {
                 return (
                   <div
                     key={index}
@@ -46,7 +46,7 @@ const Blog = () => {
                       <p>{id}</p>
                     </div>
                     <div className="cards">
-                      <div className="logo py-4">
+                      <div className="logo py-5">
                         <img
                           src={image}
                           className="img-fluid"
@@ -55,9 +55,10 @@ const Blog = () => {
                       </div>
                       <div className="cardDetails">
                         <h2>{title}</h2>
-                        <h5 className="pt-3">{subtitle}</h5>
+                        {/* <p>{li1}</p> */}
+                        {/* <h5 className="pt-3">{subtitle}</h5> */}
                       </div>
-                      <Link to="/comming-soon">
+                      <Link to={"/blogs/" + id}>
                         <button className="button2 white">
                           Read more <MdKeyboardArrowRight />
                         </button>
