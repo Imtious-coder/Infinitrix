@@ -2,10 +2,7 @@
   img {
     width: 300px;
     height: 60px;
-    padding: 15px 20px;
-    background-color: white;
-    border-top-left-radius: 30px;
-    border-bottom-right-radius: 30px;
+    padding: 10px;
   }
   p,
   h5,
@@ -27,6 +24,41 @@
     font-weight: 500;
     margin-bottom: 12px;
   }
+
+  .line {
+    height: 1px;
+    background-image: linear-gradient(
+      90deg,
+      rgba(206, 211, 246, 0) 0,
+      #ced3f6 38%,
+      #ced3f6 64%,
+      rgba(206, 211, 246, 0) 99%
+    );
+    opacity: 0.9;
+  }
+  .line {
+    height: 1px;
+    background-image: linear-gradient(
+      90deg,
+      rgba(206, 211, 246, 0) 0,
+      #ced3f6 38%,
+      #ced3f6 64%,
+      rgba(206, 211, 246, 0) 99%
+    );
+    opacity: 0.9;
+  }
+  .line2 {
+    height: 100%;
+    width: 1px;
+    background-image: linear-gradient(
+      0deg,
+      rgba(206, 211, 246, 0) 0,
+      #ced3f6 38%,
+      #ced3f6 64%,
+      rgba(206, 211, 246, 0) 99%
+    );
+    opacity: 0.9;
+  }
 }
 
 .bottom-footer {
@@ -39,5 +71,9 @@
     &:hover {
       color: #0099dc;
     }
+  }
+  .bottomFooterLogo {
+    width: 100px;
+    height: 10px;
   }
 }

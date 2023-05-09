@@ -7,7 +7,7 @@ import {
   FaYoutube,
 } from "react-icons/fa";
 import { Link } from "react-router-dom";
-import Logo from "../../Assets/images//HOME/logo.svg";
+import Logo from "../../Assets/images/footer_logo.png";
 import "./Footer.scss";
 
 const Footer = () => {
@@ -15,8 +15,8 @@ const Footer = () => {
     <>
       <footer className="main-footer primary-background py-5">
         <div className="container-xxl">
-          <div className="row">
-            <div className="col-12 col-md-6">
+          <div className="row px-md-5">
+            <div className="col-12">
               <Link to="/">
                 <img
                   src={Logo}
@@ -25,7 +25,51 @@ const Footer = () => {
                 />
               </Link>
             </div>
-            <div className="col-6 col-sm-4 col-md-2 mt-5 mt-md-0">
+            <div className="my-5 line" />
+            <div className="col-6 col-md-4 mt-5 mt-md-0">
+              <div>
+                <h5 className="mb-4">Products</h5>
+                <Link to="/">
+                  <h6>Sensevoice</h6>
+                </Link>
+                <Link to="/">
+                  <h6>Sensebots</h6>
+                </Link>
+                <Link to="/">
+                  <h6>HIA</h6>
+                </Link>
+                <Link to="/">
+                  <h6>Airvoice</h6>
+                </Link>
+                <Link to="/">
+                  <h6>InsideSense</h6>
+                </Link>
+              </div>
+            </div>
+            <div className="d-none d-md-block col-md-1">
+              <div className="line2"></div>
+            </div>
+            <div className="col-6 col-md-3 mt-5 mt-md-0">
+              <div>
+                <h5 className="mb-4">Company</h5>
+                <Link to="/">
+                  <h6>About US</h6>
+                </Link>
+                <Link to="/">
+                  <h6>Leadership</h6>
+                </Link>
+                <Link to="/">
+                  <h6>Career</h6>
+                </Link>
+                <Link to="/">
+                  <h6>Terms & Condition</h6>
+                </Link>
+                <Link to="/">
+                  <h6>Privacy Policy</h6>
+                </Link>
+              </div>
+            </div>
+            <div className="col-6 col-md-2 mt-5 mt-md-0">
               <div>
                 <h5 className="mb-4">Pages</h5>
                 <Link to="/">
@@ -48,7 +92,7 @@ const Footer = () => {
                 </Link>
               </div>
             </div>
-            <div className="col-6 col-sm-4 col-md-2 mt-5 mt-md-0">
+            <div className="col-6 col-md-2 mt-5 mt-md-0">
               <div>
                 <h5 className="mb-4">Services</h5>
                 <Link to="/comming-soon">
@@ -62,46 +106,31 @@ const Footer = () => {
                 </Link>
               </div>
             </div>
-            <div className="col-6 col-sm-4 col-md-2 mt-5 mt-md-0">
-              <div>
-                <h5 className="mb-4">Products</h5>
-                <Link to="/">
-                  <h6>Sensevoice</h6>
-                </Link>
-                <Link to="/">
-                  <h6>Sensebots</h6>
-                </Link>
-                <Link to="/">
-                  <h6>HIA</h6>
-                </Link>
-                <Link to="/">
-                  <h6>Airvoice</h6>
-                </Link>
-                <Link to="/">
-                  <h6>InsideSense</h6>
-                </Link>
-              </div>
-            </div>
           </div>
         </div>
+        <div className="mt-5 line" />
       </footer>
-      <footer className="bottom-footer primary-background py-5">
+      <footer className="bottom-footer primary-background pb-5">
         <div className="container-xxl">
           <div className="row">
-            <div className="col-12 col-md-6">
-              <div className="d-flex gap-5 justify-content-center justify-content-md-start align-items-center">
+            <div className="col-12 col-md-8">
+              <div className="d-flex flex-column flex-sm-row gap-4 justify-content-center justify-content-md-start align-items-center">
+                <div className="bottomFooterLogo">
+                  <Link to="/">
+                    <img
+                      src={Logo}
+                      className="img-fluid d-block mx-auto mx-md-0"
+                      alt="Footer_Logo"
+                    />
+                  </Link>
+                </div>
                 <p className="mb-0">
-                  &copy; {new Date().getFullYear()} IntelsenseAI
+                  &copy; {new Date().getFullYear()} IntelsenseAI All Rights
+                  Reserved.
                 </p>
-                <Link to="/comming-soon">
-                  <h6 className="mb-0">Terms of service</h6>
-                </Link>
-                <Link to="/comming-soon">
-                  <h6 className="mb-0">Privacy Policy</h6>
-                </Link>
               </div>
             </div>
-            <div className="col-12 col-md-6 mt-4 mt-md-0">
+            <div className="col-12 col-md-4 mt-4 mt-md-0">
               <div className="d-flex gap-5 justify-content-center justify-content-md-end align-items-center">
                 <Link
                   to="https://www.facebook.com/intelsenseai"

@@ -12,8 +12,8 @@ import ProdductImage1 from "../Assets/images/HOME/productlogo/SenseVoice.png";
 import ProdductImage4 from "../Assets/images/HOME/productlogo/hia_img10.png";
 
 // REVIEW IMAGE
-import ReviewImage2 from "../Assets/images/HOME/Review/m.jpg";
-import ReviewImage1 from "../Assets/images/HOME/Review/s.jpg";
+import ReviewImage2 from "../Assets/images/HOME/Reviews/m.jpg";
+import ReviewImage1 from "../Assets/images/HOME/Reviews/s.jpg";
 
 // PARTNERS IN OUR PORTFOLIO IMAGES
 import PartnersImage1 from "../Assets/images/HOME/Partners/alphasense.png";

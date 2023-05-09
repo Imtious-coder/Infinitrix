@@ -1,6 +1,10 @@
 import React from "react";
-import i from "../../Assets/images/HOME/Industry-Leaders/profile.png";
-import j from "../../Assets/images/HOME/Industry-Leaders/quote.png";
+import Image1 from "../../Assets/images/HOME/Industry-Leaders/1.jpg";
+import Image2 from "../../Assets/images/HOME/Industry-Leaders/2.jpg";
+import Image3 from "../../Assets/images/HOME/Industry-Leaders/3.jpg";
+import Image4 from "../../Assets/images/HOME/Industry-Leaders/4.jpg";
+import Image5 from "../../Assets/images/HOME/Industry-Leaders/5.jpg";
+import quote from "../../Assets/images/HOME/Industry-Leaders/quote.png";
 import "./IndustryLeaders.scss";
 
 const IndustryLeaders = () => {
@@ -18,9 +22,13 @@ const IndustryLeaders = () => {
                 <div className="row">
                   <div className="col-12 col-md-3 px-5 pe-md-0">
                     <div className="rounded-3 position-relative">
-                      <img src={i} className="img-fluid" alt="profile_image" />
                       <img
-                        src={j}
+                        src={Image1}
+                        className="img-fluid main_image"
+                        alt="profile_image"
+                      />
+                      <img
+                        src={quote}
                         alt="quote"
                         className="quote position-absolute"
                       />
@@ -32,17 +40,17 @@ const IndustryLeaders = () => {
                         Industry Leaders Talkies
                       </h2>
                       <h3 className="sub-heading text-md-start mb-3">
-                        We are at the beginning of a new era in computing, one
-                        where artificial intelligence and natural language
-                        understanding will fundamentally transform how we
-                        interact with technology.
+                        Natural Language Processing has the potential to
+                        transform many industries, from customer service to
+                        healthcare, by enabling machines to understand and
+                        respond to human language at scale.
                       </h3>
                       <h6 className="fw-bold text-center text-md-start">
-                        Satya Nadella
+                        John McCarthy
                       </h6>
-                      <small className="d-block text-center text-md-start">
+                      {/* <small className="d-block text-center text-md-start">
                         Micrososft
-                      </small>
+                      </small> */}
                     </div>
                   </div>
                 </div>
@@ -51,75 +59,13 @@ const IndustryLeaders = () => {
                 <div className="row">
                   <div className="col-12 col-md-3 px-5 pe-md-0">
                     <div className="rounded-3 position-relative">
-                      <img src={i} className="img-fluid" alt="profile_image" />
                       <img
-                        src={j}
-                        alt="quote"
-                        className="quote position-absolute"
+                        src={Image2}
+                        className="img-fluid main_image"
+                        alt="profile_image"
                       />
-                    </div>
-                  </div>
-                  <div className="col-12 col-md-9 mt-4 mt-md-0 ps-md-5 d-flex justify-content-center align-items-center">
-                    <div>
-                      <h2 className="heading fw-bold text-md-start">
-                        Industry Leaders Talkies
-                      </h2>
-                      <h3 className="sub-heading text-md-start mb-3">
-                        The progress we are seeing in natural language
-                        processing is enabling us to build machines that can
-                        understand and communicate with people in new and
-                        exciting ways." - Sundar Pichai
-                      </h3>
-                      <h6 className="fw-bold text-center text-md-start">
-                        Sundar Pichai
-                      </h6>
-                      <small className="d-block text-center text-md-start">
-                        Google
-                      </small>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div className="carousel-item">
-                <div className="row">
-                  <div className="col-12 col-md-3 px-5 pe-md-0">
-                    <div className="rounded-3 position-relative">
-                      <img src={i} className="img-fluid" alt="profile_image" />
                       <img
-                        src={j}
-                        alt="quote"
-                        className="quote position-absolute"
-                      />
-                    </div>
-                  </div>
-                  <div className="col-12 col-md-9 mt-4 mt-md-0 ps-md-5 d-flex justify-content-center align-items-center">
-                    <div>
-                      <h2 className="heading fw-bold text-md-start">
-                        Industry Leaders Talkies
-                      </h2>
-                      <h3 className="sub-heading text-md-start mb-3">
-                        The pace of progress in artificial intelligence is
-                        incredibly fast. Unless you have direct exposure to
-                        groups like DeepMind, you have no idea how fast—it is
-                        growing at a pace close to exponential.
-                      </h3>
-                      <h6 className="fw-bold text-center text-md-start">
-                        Elon Musk
-                      </h6>
-                      <small className="d-block text-center text-md-start">
-                        Tesla
-                      </small>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div className="carousel-item">
-                <div className="row">
-                  <div className="col-12 col-md-3 px-5 pe-md-0">
-                    <div className="rounded-3 position-relative">
-                      <img src={i} className="img-fluid" alt="profile_image" />
-                      <img
-                        src={j}
+                        src={quote}
                         alt="quote"
                         className="quote position-absolute"
                       />
@@ -133,14 +79,11 @@ const IndustryLeaders = () => {
                       <h3 className="sub-heading text-md-start mb-3">
                         I think natural language processing is going to be one
                         of the most important areas of artificial intelligence
-                        over the next decade.
+                        over the next decade."
                       </h3>
                       <h6 className="fw-bold text-center text-md-start">
                         Sam Altman
                       </h6>
-                      <small className="d-block text-center text-md-start">
-                        OpenAI
-                      </small>
                     </div>
                   </div>
                 </div>
@@ -149,9 +92,13 @@ const IndustryLeaders = () => {
                 <div className="row">
                   <div className="col-12 col-md-3 px-5 pe-md-0">
                     <div className="rounded-3 position-relative">
-                      <img src={i} className="img-fluid" alt="profile_image" />
                       <img
-                        src={j}
+                        src={Image3}
+                        className="img-fluid main_image"
+                        alt="profile_image"
+                      />
+                      <img
+                        src={quote}
                         alt="quote"
                         className="quote position-absolute"
                       />
@@ -163,17 +110,83 @@ const IndustryLeaders = () => {
                         Industry Leaders Talkies
                       </h2>
                       <h3 className="sub-heading text-md-start mb-3">
-                        The pace of progress in artificial intelligence is
-                        incredibly fast. Unless you have direct exposure to
-                        groups like DeepMind, you have no idea how fast—it is
-                        growing at a pace close to exponential.
+                        Natural language processing is one of the most exciting
+                        areas in AI today, with the potential to transform how
+                        we interact with machines and with each other
                       </h3>
                       <h6 className="fw-bold text-center text-md-start">
                         Andrej Karpathy
                       </h6>
-                      <small className="d-block text-center text-md-start">
-                        CNNs
-                      </small>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div className="carousel-item">
+                <div className="row">
+                  <div className="col-12 col-md-3 px-5 pe-md-0">
+                    <div className="rounded-3 position-relative">
+                      <img
+                        src={Image4}
+                        className="img-fluid main_image"
+                        alt="profile_image"
+                      />
+                      <img
+                        src={quote}
+                        alt="quote"
+                        className="quote position-absolute"
+                      />
+                    </div>
+                  </div>
+                  <div className="col-12 col-md-9 mt-4 mt-md-0 ps-md-5 d-flex justify-content-center align-items-center">
+                    <div>
+                      <h2 className="heading fw-bold text-md-start">
+                        Industry Leaders Talkies
+                      </h2>
+                      <h3 className="sub-heading text-md-start mb-3">
+                        Deep learning has revolutionized natural language
+                        processing by enabling machines to learn the underlying
+                        structure of language and to generate more
+                        natural-sounding responses.
+                      </h3>
+                      <h6 className="fw-bold text-center text-md-start">
+                        Yann LeCun
+                      </h6>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div className="carousel-item">
+                <div className="row">
+                  <div className="col-12 col-md-3 px-5 pe-md-0">
+                    <div className="rounded-3 position-relative">
+                      <img
+                        src={Image5}
+                        className="img-fluid main_image"
+                        alt="profile_image"
+                      />
+                      <img
+                        src={quote}
+                        alt="quote"
+                        className="quote position-absolute"
+                      />
+                    </div>
+                  </div>
+                  <div className="col-12 col-md-9 mt-4 mt-md-0 ps-md-5 d-flex justify-content-center align-items-center">
+                    <div>
+                      <h2 className="heading fw-bold text-md-start">
+                        Industry Leaders Talkies
+                      </h2>
+                      <h3 className="sub-heading text-md-start mb-3">
+                        I have always been convinced that the only way to get
+                        artificial intelligence to work is to do the computation
+                        in a way similar to the human brain. That is the goal I
+                        have been pursuing. We are making progress, though we
+                        still have lots to learn about how the brain actually
+                        works
+                      </h3>
+                      <h6 className="fw-bold text-center text-md-start">
+                        Geoffrey Hinton
+                      </h6>
                     </div>
                   </div>
                 </div>
