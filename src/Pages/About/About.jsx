@@ -4,11 +4,13 @@ import InfoImage from "../../Assets/images/ABOUT/info-image.svg";
 import HeroImage from "../../Assets/images/ABOUT/left-hero-img.svg";
 import HistoryImage from "../../Assets/images/ABOUT/team_intelsense_ai_.jpg";
 import WorkImage from "../../Assets/images/ABOUT/work.webp";
+import Meta from "../../components/Meta/Meta";
 import "./About.scss";
 
 const About = () => {
   return (
     <>
+      <Meta title={"About US"} />
       <section className="about-wrapper">
         {/* HERO SECTION */}
         <section>
@@ -28,22 +30,17 @@ const About = () => {
                   className="d-block mx-auto my-5"
                 />
                 <p className="fw-bold text-center text-sm-start">
-                  Inflection is an AI-first company, redefining human-computer
-                  interaction, co-founded by all founders and directors.
+                  At Intelsense AI, we are a team of highly skilled and
+                  passionate individuals dedicated to creating cutting-edge AI
+                  solutions for businesses across various industries. Our team
+                  consists of data scientists, software engineers, and AI
+                  specialists who work tirelessly to develop innovative products
+                  that drive growth and efficiency.
                 </p>
                 <p className="fw-bold text-center text-sm-start">
-                  Throughout the history of computing, humans have had to learn
-                  to speak the language of machines. In the new paradigm,
-                  machines will understand our language.
-                </p>
-                <p className="fw-bold text-center text-sm-start">
-                  Recent advances in artificial intelligence promise to
-                  fundamentally redefine human-machine interaction. We will soon
-                  have the ability to relay our thoughts and ideas to computers
-                  using the same natural, conversational language we use to
-                  communicate with people. Over time, these new language
-                  capabilities will revolutionize what it means to have a
-                  digital experience.
+                  Our team consists of data scientists, software engineers, and
+                  AI specialists who work tirelessly to develop innovative
+                  products that drive growth and efficiency.
                 </p>
               </div>
             </div>
@@ -58,11 +55,19 @@ const About = () => {
                   OUR STORY
                 </h3>
                 <p>
-                  Intelsense AI building a world class team of AI Researchers,
-                  Data Scientists, Machine Learning Engineers, Software
-                  Engineers, Product Managers, and Visionaries to help realize
-                  this potential, pushing the boundaries of what AI can do, and
-                  advancing the state of the art in AI.
+                  Intelsense AI was founded with a vision to revolutionize the
+                  way businesses operate by leveraging the power of artificial
+                  intelligence. Our journey began with a small group of AI
+                  enthusiasts 10 years ago, who shared a common passion for
+                  developing innovative solutions that could make a real
+                  difference in the world.
+                </p>
+                <p>
+                  Over the years, our team has grown, and so has our expertise.
+                  Today, we are proud to have developed some of the most
+                  advanced AI solutions in the market, helping businesses to
+                  streamline their operations, increase productivity, and drive
+                  growth.
                 </p>
               </div>
               <div className="col-12 col-sm-6 ps-sm-5 mt-5">
@@ -94,11 +99,22 @@ const About = () => {
                   OUR PURPOSE
                 </h3>
                 <p>
-                  We're optimistic for a future where people live healthier,
-                  more informed, more creative lives. We see a world where
-                  technology enhances human potential, and progress that
-                  everyone can benefit from. We let innovators create the next
-                  breakthroughs in machine intelligence.
+                  At Intelsense AI, our purpose is to empower businesses with
+                  the latest AI technology so that they can thrive in the
+                  digital age. We believe that speech-based AI has the potential
+                  to transform the way businesses operate and help them achieve
+                  their full potential. We are committed to developing AI
+                  solutions that are accessible, easy to use, and can be
+                  integrated seamlessly into any existing business processes.
+                </p>
+                <p>
+                  We believe in putting our customers first and working closely
+                  with them to understand their unique needs and challenges. By
+                  doing so, we can create customized solutions that address
+                  their specific pain points and help them achieve their
+                  business goals. We aim to simplify the communication process
+                  as much as possible and increase the efficient extraction of
+                  information.
                 </p>
               </div>
               <div className="col-12 col-sm-6 ps-sm-5 mt-5">

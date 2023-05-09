@@ -1,5 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import Image from "../../Assets/images/HOME/explore_waves.png";
 import "./ArrangeDemonstration.scss";
 
 const ArrangeDemonstration = () => {
@@ -18,6 +19,13 @@ const ArrangeDemonstration = () => {
               Let's Talk
             </button>
           </Link>
+          <div className="container-lg">
+            <div className="row justify-content-center pt-5">
+              <div className="col-6">
+                <img src={Image} className="img-fluid" alt="waves" />
+              </div>
+            </div>
+          </div>
         </div>
       </section>
     </>

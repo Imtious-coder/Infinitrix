@@ -1,13 +1,11 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import { serviceData, serviceData2 } from "../../utils/Data";
-import Meta from "../Meta/Meta";
 import "./Services.scss";
 
 const Services = () => {
   return (
     <>
-      <Meta title={"IntelsenseAI | Sense The Future"} />
       <section className="services-wrapper background-E2F0F6 py-5">
         <div className="container py-sm-5">
           <div className="row">

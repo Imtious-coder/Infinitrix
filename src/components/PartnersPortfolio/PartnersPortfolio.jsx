@@ -13,10 +13,11 @@ const PartnersPortfolio = () => {
               <strong>Partners</strong> in our Portfolio
             </h2>
             <Marquee speed={50} gradient={false}>
-              {partnersImage?.map(({ image }, index) => {
+              {partnersImage?.map(({ image, width, height }, index) => {
                 return (
                   <div className="d-flex" key={index}>
                     <img
+                      style={{ width: `${width}`, height: `${height}` }}
                       src={image}
                       className="img-fluid mx-5 my-5 p-3"
                       alt="partners_image"

@@ -47,7 +47,7 @@ const Contact = () => {
                   name="FirstName"
                   className="form-control mb-3"
                   id="validationTooltip01"
-                  placeholder="Full name ✍🏻"
+                  placeholder="Full name"
                   required
                 />
                 <p className="fw-bold text-primary mb-2">Email</p>
@@ -55,7 +55,7 @@ const Contact = () => {
                   type="email"
                   name="Email"
                   className="form-control mb-3"
-                  placeholder="Your E-mail 📧"
+                  placeholder="Your E-mail"
                   id="validationTooltipUsername"
                   aria-describedby="validationTooltipUsernamePrepend"
                   required
@@ -65,7 +65,7 @@ const Contact = () => {
                   type="number"
                   name="number"
                   className="form-control mb-3"
-                  placeholder="Enter your phone number 📱"
+                  placeholder="Enter your phone number"
                   id="validationTooltipUsername"
                   aria-describedby="validationTooltipUsernamePrepend"
                   required
@@ -75,7 +75,7 @@ const Contact = () => {
                   type="text"
                   name="Message"
                   className="form-control pt-5 pb-5 text-center mb-3"
-                  placeholder="Type your message here... 👩🏻‍💻"
+                  placeholder="Type your message here..."
                   id="validationTooltip05"
                   required
                 />
