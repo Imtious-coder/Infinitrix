@@ -38,7 +38,7 @@ body {
   background: #0099dc;
 }
 .base-gradient-background {
-  background-image: linear-gradient(90deg, #0000ff99, #009adc91);
+  background-image: linear-gradient(90deg, #95ff00e2, #009adc91);
 }
 .secondary-background {
   background: #0000ff;
@@ -114,4 +114,8 @@ body {
   &:hover {
     background-image: linear-gradient(190deg, #2a2aff, #5757ff);
   }
+}
+
+.big-heading  {
+  font-size: 48px!important;
 }

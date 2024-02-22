@@ -1,4 +1,5 @@
 .hero-wrapper {
+  margin-top: -86px;
   color: white;
 
   h1 {
@@ -13,9 +14,14 @@
     line-height: 32px;
     letter-spacing: 0.5px;
   }
-  .hero-video {
-    height: 300px;
+  .hero-image {
+    height: 350px;
     width: 100%;
+    // border-radius: 50px;
+    // border-top-left-radius: 150px;
+    // border-bottom-right-radius: 150px;
+    border-radius: 5px 5px 150px 5px;
+    box-shadow: 10px 10px 50px rgb(0, 242, 255);
   }
 }
 
