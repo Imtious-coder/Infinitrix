@@ -31,16 +31,16 @@ export const serviceData = [
   {
     id: 0,
     icon: <BiUserVoice />,
-    title: "Speech Technologies",
+    title: "Voice Detection 🎙️",
     description:
-      "Helps you complete any voice-based action. It lets you convert speech to text or text to speech, give voice commands, and so much more.",
+      "Voice Detection: A robust feature providing seamless user authentication and enhanced security measures. Experience the convenience of hands-free interaction and personalized user experiences with our innovative voice detection feature.",
   },
   {
     id: 1,
     icon: <GiProcessor />,
-    title: "Natural Language Processing",
+    title: "Image Processing",
     description:
-      "Enables your computer to understand and interact in human languages by using our NLP engine. It includes models for Bangla, English, and many more very efficiently and naturally. ",
+      "Optimize your workflow and elevate visual content quality with our advanced image processing capabilities. Unlock new possibilities in digital transformation with our image processing technology, delivering precision and efficiency.",
   },
 ];
 export const serviceData2 = [

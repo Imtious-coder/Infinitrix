@@ -1,6 +1,5 @@
 import React from "react";
-import { Link } from "react-router-dom";
-import { serviceData, serviceData2 } from "../../utils/Data";
+import { serviceData } from "../../utils/Data";
 import "./Services.scss";
 
 const Services = () => {
@@ -33,7 +32,7 @@ const Services = () => {
               );
             })}
           </div>
-          <div className="row justify-content-center pt-5 mt-5">
+          {/* <div className="row justify-content-center pt-5 mt-5">
             <div>
               <h2 className="heading text-center mb-4">
                 <strong>Service made easy </strong> for you to understand
@@ -67,7 +66,7 @@ const Services = () => {
                 );
               }
             )}
-          </div>
+          </div> */}
         </div>
       </section>
     </>
