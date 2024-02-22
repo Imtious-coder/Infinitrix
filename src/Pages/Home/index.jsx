@@ -13,7 +13,7 @@ import Services from "../../components/Services/Services";
 const index = () => {
   return (
     <>
-      <Meta title={"IntelsenseAI | Sense The Future"} />
+      <Meta title={"Infinitrix | Best AI Solutions"} />
       <Hero />
       <Services />
       <Aspiring />

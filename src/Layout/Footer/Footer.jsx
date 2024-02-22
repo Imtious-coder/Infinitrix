@@ -7,7 +7,6 @@ import {
   FaYoutube,
 } from "react-icons/fa";
 import { Link } from "react-router-dom";
-import Logo from "../../Assets/images/footer_logo.png";
 import "./Footer.scss";
 
 const Footer = () => {
@@ -18,11 +17,12 @@ const Footer = () => {
           <div className="row px-md-5">
             <div className="col-12">
               <Link to="/">
-                <img
+                {/* <img
                   src={Logo}
                   className="img-fluid d-block mx-auto mx-md-0"
                   alt="Footer_Logo"
-                />
+                /> */}
+                <h1 className="fw-bold">Infinitrix</h1>
               </Link>
             </div>
             <div className="my-5 line" />
@@ -115,17 +115,13 @@ const Footer = () => {
           <div className="row">
             <div className="col-12 col-md-8">
               <div className="d-flex flex-column flex-sm-row gap-4 justify-content-center justify-content-md-start align-items-center">
-                <div className="bottomFooterLogo">
+                {/* <div className="bottomFooterLogo">
                   <Link to="/">
-                    <img
-                      src={Logo}
-                      className="img-fluid d-block mx-auto mx-md-0"
-                      alt="Footer_Logo"
-                    />
+                    <h2>Infinitrix</h2>
                   </Link>
-                </div>
+                </div> */}
                 <p className="mb-0">
-                  &copy; {new Date().getFullYear()} IntelsenseAI All Rights
+                  &copy; {new Date().getFullYear()} Infinitrix All Rights
                   Reserved.
                 </p>
               </div>

@@ -1,12 +1,12 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import Logo from "../../Assets/images/HOME/logo.svg";
+import Logo from "../../Assets/images/HOME/logo2.png";
 import "./Header.scss";
 
 const Header = () => {
   return (
     <>
-      <header className="header-wrapper py-3 top-sticky shadow-sm sticky-top">
+      <header className="header-wrapper py-1 top-sticky shadow-sm sticky-top">
         <nav className="navbar navbar-expand-lg">
           <div className="container-xxl d-flex justify-content-between align-items-center">
             {/* logo */}
