@@ -6,10 +6,6 @@ import ServiceImage1 from "../Assets/images/HOME/services/services-easy1.png";
 import ServiceImage2 from "../Assets/images/HOME/services/services-easy2.png";
 
 // PRODUCT IMAGES
-import ProdductImage3 from "../Assets/images/HOME/productlogo/Airvoice.png";
-import ProdductImage4 from "../Assets/images/HOME/productlogo/Hia Logo.png";
-import ProdductImage2 from "../Assets/images/HOME/productlogo/SenseBot.png";
-import ProdductImage1 from "../Assets/images/HOME/productlogo/SenseVoice.png";
 
 // REVIEW IMAGE
 import ReviewImage2 from "../Assets/images/HOME/Reviews/m.jpg";
@@ -74,60 +70,71 @@ export const serviceData2 = [
 export const productData = [
   {
     id: 0,
-    title: "Sensevoice",
+    title: "NeuroSync",
     subtitle:
-      "A transcription platform backed by a custom-built speech recognition system and NLP, ready to turn your thoughts into texts in no time.",
-    discription:
-      "Our Automatic Speech Recognition engine leverages the most advanced forms of Deep Learning.",
-    link: "#",
-    logo: ProdductImage1,
-    height: 80,
-    width: 250,
+      "Enhance cognitive functions with NeuroSync's advanced brain-computer interface technology.",
+    description:
+      "NeuroSync is a groundbreaking platform that combines cutting-edge brain-computer interface technology with advanced neurofeedback techniques to enhance cognitive functions and optimize mental performance. Our platform utilizes real-time brainwave analysis to provide personalized training programs tailored to each user's unique cognitive profile. Whether you're looking to improve focus, memory, or creativity, NeuroSync offers scientifically validated protocols to help you achieve your cognitive goals. With its user-friendly interface and interactive training modules, our platform makes brain training accessible to everyone. Unlock your brain's full potential with NeuroSync and experience a new level of mental clarity and productivity.",
+    link: "https://www.neurosync.com",
+    height: 24,
+    width: 17,
   },
-  {
-    id: 1,
-    title: "Sensebots",
-    subtitle: "Deep Learning Based Conversational AI Chatbot Platform.",
-    discription:
-      "Our Automatic Speech Recognition engine leverages the most advanced forms of Deep Learning.",
-    link: "#",
-    logo: ProdductImage2,
-    height: 140,
-    width: 250,
-  },
+
   {
     id: 2,
-    title: "Airvoice",
-    subtitle: "AI Driven Voice Commerce service for e-commerce platforms",
-    discription:
-      "Intelsense's HIA is the first technology that can understand and assess information in Bengali. By using a smartphone, a user can carry out transactions, communicate, seek medical aid, etc. ",
-    link: "#",
-    logo: ProdductImage3,
-    height: 140,
-    width: 250,
+    title: "LingoGenius",
+    subtitle:
+      "Break language barriers effortlessly with LingoGenius's AI-powered translation solutions.",
+    description:
+      "LingoGenius is a cutting-edge AI-powered translation platform that revolutionizes multilingual communication. Our advanced natural language processing algorithms enable accurate and fluent translation of text, speech, and documents across multiple languages. Whether you're traveling abroad, conducting business globally, or learning a new language, LingoGenius provides the tools you need to break down language barriers and connect with people around the world. With support for a wide range of languages and dialects, our platform ensures precise and contextually relevant translations in real-time. Experience seamless communication across borders with LingoGenius.",
+    link: "https://www.lingogenius.com",
+    height: 25,
+    width: 18,
   },
   {
     id: 3,
-    title: "HIA",
+    title: "MindScribe",
     subtitle:
-      "Voice Based AI-powered virtual assistant of Intelsense AI, a combination of ASR, TTS, NLP, & NLU engines.",
-    discription:
-      "Intelsense's HIA is the first technology that can understand and assess information in Bengali. By using a smartphone, a user can carry out transactions, communicate, seek medical aid, etc. ",
-    link: "#",
-    logo: ProdductImage4,
-    height: 30,
-    width: 80,
+      "Unlock your inner potential with MindScribe's AI-driven personal growth companion.",
+    description:
+      "MindScribe is an AI-driven personal growth companion designed to help individuals achieve their goals and cultivate a positive mindset. Our platform combines cognitive behavioral therapy techniques with mindfulness practices to empower users to overcome challenges, manage stress, and enhance well-being. Whether you're striving for personal or professional development, MindScribe provides personalized insights and actionable recommendations to support your journey. With its intuitive interface and interactive exercises, our platform fosters self-awareness and resilience, enabling you to thrive in all aspects of life. Start your journey towards a happier and healthier you with MindScribe by your side.",
+    link: "https://www.mindscribe.com",
+    height: 18,
+    width: 12,
   },
-  // {
-  //   id: 3,
-  //   title: "InsideSense",
-  //   subtitle: "AI Driven Social Sentiment Analysis & Listening Platform.",
-  //   discription:
-  //     "Intelsense's HIA is the first technology that can understand and assess information in Bengali. By using a smartphone, a user can carry out transactions, communicate, seek medical aid, etc. ",
-  //   link: "#",
-  //   logo: "/images/New_Images/InsideSense.png",
-  //   productLink: "",
-  // },
+  {
+    id: 4,
+    title: "CryoCraft",
+    subtitle:
+      "Explore the uncharted realms of creativity with CryoCraft's AI-powered art generation tools.",
+    description:
+      "CryoCraft is a revolutionary AI-powered art generation platform that redefines the boundaries of creativity. Our platform leverages deep learning algorithms to analyze artistic styles and generate original artworks with stunning visual appeal. Whether you're an artist, designer, or hobbyist, CryoCraft provides a diverse range of tools and filters to spark your imagination and bring your ideas to life. From abstract compositions to photorealistic landscapes, our platform offers endless possibilities for artistic expression and exploration. Join the evolution of art with CryoCraft as your creative muse.",
+    link: "https://www.cryocraft.com",
+    height: 22,
+    width: 20,
+  },
+  {
+    id: 5,
+    title: "VitaFit",
+    subtitle:
+      "Achieve your fitness goals with VitaFit's AI-driven personalized training platform.",
+    description:
+      "VitaFit is an AI-driven personalized training platform designed to optimize your fitness journey and maximize results. Our platform combines cutting-edge machine learning algorithms with expert fitness coaching to deliver tailored workout plans and nutritional guidance based on your unique goals and preferences. Whether you're looking to build muscle, lose weight, or improve overall health, VitaFit provides the tools and support you need to succeed. With its intuitive workout tracker and progress analytics, our platform keeps you motivated and accountable every step of the way. Take charge of your fitness with VitaFit and unlock your full potential.",
+    link: "https://www.vitafit.com",
+    height: 21,
+    width: 16,
+  },
+  {
+    id: 7,
+    title: "QuantumCraft",
+    subtitle:
+      "Embark on a quantum computing journey with QuantumCraft's innovative AI-powered quantum development platform.",
+    description:
+      "QuantumCraft is a pioneering quantum development platform that empowers researchers and developers to explore the potential of quantum computing with advanced AI capabilities. Our platform provides a comprehensive suite of tools for quantum algorithm design, simulation, and optimization, enabling users to tackle complex computational problems with unprecedented speed and efficiency. Whether you're developing quantum algorithms for optimization, cryptography, or machine learning, QuantumCraft offers the resources you need to push the boundaries of computational science. With its intuitive interface and scalable infrastructure, our platform accelerates the pace of quantum innovation and drives breakthroughs in AI-driven quantum computing. Join us on the frontier of quantum technology with QuantumCraft.",
+    link: "https://www.quantumcraft.com",
+    height: 26,
+    width: 19,
+  },
 ];
 
 // REVIEW DATA

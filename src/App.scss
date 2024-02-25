@@ -110,8 +110,10 @@ body {
   border-radius: 50px;
   padding: 8px 40px;
   background-image: linear-gradient(90deg, #2a2aff, #5757ff);
+  transition: all 0.3s ease-in-out;
 
   &:hover {
+    transform: scale(1.05);
     background-image: linear-gradient(190deg, #2a2aff, #5757ff);
   }
 }
