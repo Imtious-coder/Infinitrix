@@ -10,7 +10,7 @@ const IntelsenseInNumbers = () => {
           <div className="container-lg">
             <div className="row">
               <h2 className="heading fw-bold white">
-                INTELSENSE AI IN NUMBERS
+                INFINITRIX IN NUMBERS
               </h2>
               <div className="col-12 my-5">
                 <img

@@ -8,8 +8,10 @@ import ServiceImage2 from "../Assets/images/HOME/services/services-easy2.png";
 // PRODUCT IMAGES
 
 // REVIEW IMAGE
-import ReviewImage2 from "../Assets/images/HOME/Reviews/m.jpg";
-import ReviewImage1 from "../Assets/images/HOME/Reviews/s.jpg";
+import ReviewImage2 from "../Assets/images/HOME/Reviews/1.jpg";
+import ReviewImage1 from "../Assets/images/HOME/Reviews/2.jpg";
+import ReviewImage3 from "../Assets/images/HOME/Reviews/3.jpg";
+import ReviewImage4 from "../Assets/images/HOME/Reviews/4.jpg";
 
 // PARTNERS IN OUR PORTFOLIO IMAGES
 import PartnersImage1 from "../Assets/images/HOME/Partners/alphasense.png";
@@ -149,7 +151,7 @@ export const reviewData = [
   },
   {
     id: 1,
-    name: "Shyamol Saha",
+    name: "Heyli",
     image: ReviewImage2,
     designation: "COO, Transsion Bangladesh Limited",
     description:
@@ -157,16 +159,16 @@ export const reviewData = [
   },
   {
     id: 2,
-    name: "Majidul Haque",
-    image: ReviewImage2,
+    name: "Jhon Trute",
+    image: ReviewImage3,
     designation: "Head of Digital Banking, Prime Bank",
     description:
       "We have seen local companies using the term 'Al' as a marketing gimmick only. This is so impressive to see a Bangladeshi Al tech company delivering exactly what they are promising.",
   },
   {
     id: 3,
-    name: "Salman",
-    image: ReviewImage1,
+    name: "Anna",
+    image: ReviewImage4,
     designation: "Director, Inspirer and Adviser Consultancy firm.",
     description:
       "We often take long qualitative research that requires a lot of data extraction. But this transcription platform can quickly note down everything being said, and it would increase the quantity of data extracted from interviews.",
