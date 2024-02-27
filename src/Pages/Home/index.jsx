@@ -3,7 +3,6 @@ import ArrangeDemonstration from "../../components/ArrangeDemonstration/ArrangeD
 import Aspiring from "../../components/Aspiring/Aspiring";
 import Hero from "../../components/Hero/Hero";
 import IndustryLeaders from "../../components/IndustryLeaders/IndustryLeaders";
-import IntelsenseInNumbers from "../../components/IntelsenseInNumbers/IntelsenseInNumbers";
 import Meta from "../../components/Meta/Meta";
 import PartnersPortfolio from "../../components/PartnersPortfolio/PartnersPortfolio";
 import Products from "../../components/Products/Products";
@@ -19,9 +18,8 @@ const index = () => {
       <Aspiring />
       <Products />
       <Review />
-      <IntelsenseInNumbers />
-      <PartnersPortfolio />
       <IndustryLeaders />
+      <PartnersPortfolio />
       <ArrangeDemonstration />
     </>
   );

@@ -14,18 +14,19 @@ const Products = () => {
                 <strong>Products</strong> we are proud of!
               </h2>
               <h3 className="sub-heading text-center mb-sm-5">
-                The Next Generation Language Processing & Voice AI Solutions
+                The Ultimate <strong>Image</strong> & <strong>Voice</strong>{" "}
+                Products Into The Market.
               </h3>
             </div>
             <div className="col-12 px-2">
               <div className="cards background-white position-relative px-sm-5">
                 <div className="mt-4 d-flex flex-column align-items-center justify-content-center">
-                  <img
+                  {/* <img
                     style={{ width: `${50}px`, height: `${60}px` }}
                     // src={logo}
                     className="img-fluid mb-2"
                     alt="product_logo"
-                  />
+                  /> */}
                   <p className="title text-center pb-2">SynthAI</p>
                   <p className="sub-title text-center pb-2">
                     Empower your creative journey with SynthAI's innovative
@@ -40,7 +41,7 @@ const Products = () => {
               </div>
             </div>
             {productData?.map(
-              ({ id, title, subtitle, description , height, width }, index) => {
+              ({ id, title, subtitle, description, height, width }, index) => {
                 return (
                   <div key={index} className="col-12 col-md-4 mt-3 px-2">
                     <div className="cards background-white position-relative px-sm-5">

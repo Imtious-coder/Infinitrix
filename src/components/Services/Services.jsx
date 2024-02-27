@@ -13,7 +13,8 @@ const Services = () => {
                 <strong>Services</strong> we provide!
               </h2>
               <h3 className="sub-heading text-center mb-sm-5">
-                The Next Generation Language Processing & Voice AI Solutions
+                The Next Generation <strong>Voice</strong> and{" "}
+                <strong>Image</strong> Processing Solutions.
               </h3>
             </div>
             {serviceData?.map(({ title, description, icon }, index) => {

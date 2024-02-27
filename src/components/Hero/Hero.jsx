@@ -15,7 +15,7 @@ const Hero = () => {
                 </h1>
                 <h4 className="text-center text-sm-start">
                   Unlocking Customer Understanding and Service Excellence with
-                  Cutting-Edge AI-Powered Voice and Language Processing
+                  Cutting-Edge AI-Powered Voice and Image Processing
                   Solutions.
                 </h4>
               </div>

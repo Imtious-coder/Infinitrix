@@ -13,7 +13,8 @@ const Review = () => {
               <strong>What our</strong> Partners Say
             </h2>
             <h3 className="sub-heading text-center mb-sm-5">
-              The Next Generation Image Processing & Voice AI Solutions
+              Our <strong>Power</strong>? They're not just{" "}
+              <strong>Partners</strong>, they're our <strong>Backbone</strong>.
             </h3>
           </div>
           <Marquee speed={45} gradient={false}>

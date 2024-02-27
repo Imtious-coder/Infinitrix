@@ -1,4 +1,5 @@
 import React from "react";
+import { FaHome } from "react-icons/fa";
 import { Link } from "react-router-dom";
 import Logo from "../../Assets/images/HOME/logo2.png";
 import "./Header.scss";
@@ -26,9 +27,9 @@ const Header = () => {
             </button>
             {/* navigations */}
             <div className="collapse navbar-collapse" id="navbarNavAltMarkup">
-              <div className="navbar-nav ms-auto gap-0 gap-lg-3 ps-sm-3 d-flex align-items-center align-items-sm-start align-items-lg-center">
+              <div className="navbar-nav ms-auto gap-0 gap-lg-4 ps-sm-3 d-flex align-items-center align-items-sm-start align-items-lg-center">
                 <Link to="/" className="nav-link fw-bold" aria-current="page">
-                  Home
+                  <FaHome />
                 </Link>
                 <div className="nav-link" aria-current="page">
                   <div className="dropdown">
@@ -50,10 +51,10 @@ const Header = () => {
                       </li>
                       <li>
                         <Link
-                          to="https://sensevoice.intelsense.ai/"
+                          to="comming-soon"
                           className="dropdown-item py-2 border-bottom"
                         >
-                          Sensevoice
+                          SynthAI
                         </Link>
                       </li>
                       <li>
@@ -61,7 +62,7 @@ const Header = () => {
                           to="/"
                           className="dropdown-item py-2 border-bottom"
                         >
-                          Sensebots
+                          NeuroSync
                         </Link>
                       </li>
                       <li>
@@ -69,7 +70,7 @@ const Header = () => {
                           to="/"
                           className="dropdown-item py-2 border-bottom"
                         >
-                          HIA
+                          LingoGenius
                         </Link>
                       </li>
                       <li>
@@ -77,12 +78,28 @@ const Header = () => {
                           to="/"
                           className="dropdown-item py-2 border-bottom"
                         >
-                          Airvoice
+                          MindScribe
+                        </Link>
+                      </li>
+                      <li>
+                        <Link
+                          to="/"
+                          className="dropdown-item py-2 border-bottom"
+                        >
+                          VitaFit
+                        </Link>
+                      </li>
+                      <li>
+                        <Link
+                          to="/"
+                          className="dropdown-item py-2 border-bottom"
+                        >
+                          QuantumCraft
                         </Link>
                       </li>
                       <li>
                         <Link to="/" className="dropdown-item py-2">
-                          InsideSense
+                          CryoCraft
                         </Link>
                       </li>
                     </ul>
@@ -107,20 +124,23 @@ const Header = () => {
                         </Link>
                       </li>
                       <li>
-                        <Link to="/leadership" className="dropdown-item py-2">
-                          Leadership
+                        <Link
+                          to="/investor-relation"
+                          className="dropdown-item py-2"
+                        >
+                          Investor Realation
                         </Link>
                       </li>
                     </ul>
                   </div>
                 </div>
-                <Link
+                {/* <Link
                   to="/investor-relation"
                   className="nav-link fw-bold"
                   aria-current="page"
                 >
                   Investor Realation
-                </Link>
+                </Link> */}
                 <Link
                   to="/blog"
                   className="nav-link fw-bold"

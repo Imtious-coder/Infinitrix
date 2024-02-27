@@ -1,10 +1,12 @@
 .aspiring-wrapper {
-  min-height: 250px;
-
+  min-height: 220px;
+  background: #e2f0f6;
+  box-shadow: 5px 5px 30px rgb(187, 255, 158);
+  
   img {
-    min-height: 250px;
+    min-height: 220px;
   }
-
+  
   .info {
     top: 0;
     width: 100%;
@@ -13,6 +15,6 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-color: rgba(13, 211, 155, 0.6);
+    background-color: rgba(22, 22, 22, 0.481);
   }
 }

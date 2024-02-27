@@ -145,33 +145,33 @@ export const reviewData = [
     id: 0,
     name: "Shahnawaj Chowdhury",
     image: ReviewImage1,
-    designation: "Deputy Managing Director, Modhumoti Bank Limited.",
+    designation: "CEO, BTESL TECH",
     description:
-      "Sensbot has changed the banking landscape in terms of the conversational banking conditions.",
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
   },
   {
     id: 1,
     name: "Heyli",
     image: ReviewImage2,
-    designation: "COO, Transsion Bangladesh Limited",
+    designation: "COO, TBL",
     description:
-      "I've been to USA and China, but this is the first time I'm seeing this in Bangladesh. I see this being extremely useful for both our group and other global companies.",
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
   },
   {
     id: 2,
     name: "Jhon Trute",
     image: ReviewImage3,
-    designation: "Head of Digital Banking, Prime Bank",
+    designation: "CTO, MTAI",
     description:
-      "We have seen local companies using the term 'Al' as a marketing gimmick only. This is so impressive to see a Bangladeshi Al tech company delivering exactly what they are promising.",
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
   },
   {
     id: 3,
     name: "Anna",
     image: ReviewImage4,
-    designation: "Director, Inspirer and Adviser Consultancy firm.",
+    designation: "Director",
     description:
-      "We often take long qualitative research that requires a lot of data extraction. But this transcription platform can quickly note down everything being said, and it would increase the quantity of data extracted from interviews.",
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
   },
   // {
   //   id: 4,

@@ -3,10 +3,13 @@ import Meta from "../../components/Meta/Meta";
 import "./Product.scss";
 // PRODUCT IMAGES
 import { Link } from "react-router-dom";
-import ProdductImage3 from "../../Assets/images/HOME/productlogo/Airvoice.png";
-import ProdductImage2 from "../../Assets/images/HOME/productlogo/SenseBot2.png";
-import ProdductImage1 from "../../Assets/images/HOME/productlogo/SenseVoice.png";
-import ProdductImage4 from "../../Assets/images/HOME/productlogo/hia_img1.png";
+import Image1 from "../../Assets/images/PRODUCTS/1.jpg";
+import Image2 from "../../Assets/images/PRODUCTS/1.png";
+import Image6 from "../../Assets/images/PRODUCTS/1.webp";
+import Image3 from "../../Assets/images/PRODUCTS/2.jpg";
+import Image5 from "../../Assets/images/PRODUCTS/2.png";
+import Image4 from "../../Assets/images/PRODUCTS/3.jpg";
+import Image7 from "../../Assets/images/PRODUCTS/4.jpg";
 
 const Product = () => {
   return (
@@ -22,39 +25,40 @@ const Product = () => {
           <div className="row mb-5 m-md-0">
             <div className="col-12 col-md-6 p-0 mb-0 bg-dark">
               <div className="h-100">
-                <iframe
+                <img src={Image1} alt="product_image" />
+                {/* <iframe
                   className="bg-dark"
-                  src="https://www.youtube.com/embed/1cCOfF3d03E"
+                  src="https://www.youtube.com/embed/JiT16qCBpSE?si=3IACJv_j00CK3fYB"
                   title="Sensevoice"
                   allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                   allowFullScreen
-                ></iframe>
+                ></iframe> */}
               </div>
             </div>
             <div className="col-12 col-md-6 details-1 py-5 d-flex flex-column align-items-center justify-content-center">
               <div>
-                <img
-                  src={ProdductImage1}
-                  className="mx-auto"
-                  alt="product-logo"
-                />
                 <div className="px-4">
-                  {/* <h2 className="heading">Sensevoice</h2> */}
+                  <p className="title text-center pb-2">SynthAI</p>
                   <h3 className="sub-title text-start mb-3 text-center text-sm-start">
-                    Transcription Platform supported by Custom Built Speech
-                    Recognition & Text To Speech Engine.
+                    Empower your creative journey with SynthAI's innovative
+                    AI-driven music composition tools.
                   </h3>
                   <h6 className="description text-center text-sm-start">
-                    Online shopping has now become a part of our daily lives,
-                    whether you wish to buy your daily groceries or your
-                    favorite apparel. Nowadays, you can purchase anything from
-                    e-commerce platforms or online businesses from the comfort
-                    of your own home at any time. favorite apparel. Nowadays,
-                    you can purchase anything from e-commerce platforms or
-                    online businesses from the comfort of your own home at any
-                    time.
+                    SynthAI offers state-of-the-art AI-driven music composition
+                    tools, providing unparalleled assistance and inspiration to
+                    musicians and composers worldwide. Our platform leverages
+                    advanced machine learning algorithms to analyze musical
+                    patterns and generate original compositions in various
+                    genres and styles. Whether you're a professional musician or
+                    an aspiring artist, SynthAI provides the tools you need to
+                    unleash your creativity and explore new musical horizons.
+                    With its intuitive interface and customizable settings, our
+                    platform adapts to your preferences and helps you craft
+                    unique compositions that resonate with your audience. Join
+                    the revolution in music creation with SynthAI as your
+                    creative companion.
                   </h6>
-                  <Link to="/comming-soon">
+                  <Link to="/coming-soon">
                     <button className="button2 d-block mx-auto mt-4">
                       Details
                     </button>
@@ -67,25 +71,27 @@ const Product = () => {
           <div className="row mb-5 m-md-0">
             <div className="col-12 col-md-6 details-2 py-5 d-flex flex-column align-items-center justify-content-center">
               <div>
-                <img
-                  src={ProdductImage2}
-                  className="mx-auto"
-                  alt="product-logo"
-                />
                 <div className="px-4">
-                  {/* <h2 className="heading">Sensevoice</h2> */}
+                  <p className="title text-center pb-2">NeuroSync</p>
                   <h3 className="sub-title text-start mb-3 text-center text-sm-start">
-                    Deep Learning Based Conversational AI Chatbot Platform.
+                    Enhance cognitive functions with NeuroSync's advanced
+                    brain-computer interface technology.
                   </h3>
                   <h6 className="description text-center text-sm-start">
-                    Voice assistants have already proven to be a valuable tool
-                    in every business, from small to major local and global
-                    enterprises. Meet HIA - Intelsense.AI's Deep Learning Based
-                    Virtual Financial Assistant that is set to revolutionize the
-                    market.HIA can serve as a stepping stone in reducing
-                    financial costs and boosting customer satisfaction.
-                    market.HIA can serve as a stepping stone in reducing
-                    financial costs and boosting customer satisfaction.
+                    NeuroSync is a groundbreaking platform that combines
+                    cutting-edge brain-computer interface technology with
+                    advanced neurofeedback techniques to enhance cognitive
+                    functions and optimize mental performance. Our platform
+                    utilizes real-time brainwave analysis to provide
+                    personalized training programs tailored to each user's
+                    unique cognitive profile. Whether you're looking to improve
+                    focus, memory, or creativity, NeuroSync offers
+                    scientifically validated protocols to help you achieve your
+                    cognitive goals. With its user-friendly interface and
+                    interactive training modules, our platform makes brain
+                    training accessible to everyone. Unlock your brain's full
+                    potential with NeuroSync and experience a new level of
+                    mental clarity and productivity.
                   </h6>
                   <Link to="/comming-soon">
                     <button className="button2 d-block mx-auto mt-4">
@@ -97,13 +103,7 @@ const Product = () => {
             </div>
             <div className="col-12 col-md-6 p-0">
               <div className="h-100">
-                <iframe
-                  className="bg-dark"
-                  src="https://www.youtube.com/embed/mnANeEgMyZE"
-                  title="Sensevoice"
-                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                  allowFullScreen
-                ></iframe>
+                <img src={Image2} alt="product_image" />
               </div>
             </div>
           </div>
@@ -111,35 +111,30 @@ const Product = () => {
           <div className="row mb-5 m-md-0">
             <div className="col-12 col-md-6 p-0 mb-0 bg-dark">
               <div className="h-100">
-                <iframe
-                  className="bg-dark"
-                  src="https://www.youtube.com/embed/OEgjG5fADgI"
-                  title="Sensevoice"
-                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                  allowFullScreen
-                ></iframe>
+                <img src={Image3} alt="product_image" />
               </div>
             </div>
             <div className="col-12 col-md-6 details-3 py-5 d-flex flex-column align-items-center justify-content-center">
               <div>
-                <img
-                  src={ProdductImage3}
-                  className="mx-auto"
-                  alt="product-logo"
-                />
                 <div className="px-4">
-                  {/* <h2 className="heading">Sensevoice</h2> */}
+                  <p className="title text-center pb-2">LingoGenius</p>
                   <h3 className="sub-title text-start mb-3 text-center text-sm-start">
-                    AI Driven Voice Commerce service for e-commerce platforms
+                    Break language barriers effortlessly with LingoGenius's
+                    AI-powered translation solutions.
                   </h3>
                   <h6 className="description text-center text-sm-start">
-                    We had to go to stores to try on clothing at times. Things
-                    have surely changed in this technological age. Virtual
-                    try-on has added a whole new level to the buying experience,
-                    making it more customer-friendly. Virtual try on is the
-                    technique through which we may imagine ourselves by trying
-                    on garments of our choice. This method just requires
-                    unpaired single pictures.
+                    LingoGenius is a cutting-edge AI-powered translation
+                    platform that revolutionizes multilingual communication. Our
+                    advanced natural language processing algorithms enable
+                    accurate and fluent translation of text, speech, and
+                    documents across multiple languages. Whether you're
+                    traveling abroad, conducting business globally, or learning
+                    a new language, LingoGenius provides the tools you need to
+                    break down language barriers and connect with people around
+                    the world. With support for a wide range of languages and
+                    dialects, our platform ensures precise and contextually
+                    relevant translations in real-time. Experience seamless
+                    communication across borders with LingoGenius.
                   </h6>
                   <Link to="/comming-soon">
                     <button className="button2 d-block mx-auto mt-4">
@@ -154,24 +149,26 @@ const Product = () => {
           <div className="row m-0">
             <div className="col-12 col-md-6 details-4 py-5 d-flex flex-column align-items-center justify-content-center">
               <div>
-                <img
-                  src={ProdductImage4}
-                  className="mx-auto mb-4"
-                  alt="product-logo"
-                />
                 <div className="px-4">
-                  {/* <h2 className="heading">Sensevoice</h2> */}
+                  <p className="title text-center pb-2">MindScribe</p>
                   <h3 className="sub-title text-start mb-3 text-center text-sm-start">
-                    Voice Based AI-powered virtual assistant of Intelsense AI,
-                    that combines ASR, TTS, NLP, & NLU.
+                    Unlock your inner potential with MindScribe's AI-driven
+                    personal growth companion.
                   </h3>
                   <h6 className="description text-center text-sm-start">
-                    Assume you're looking through Instagram and an outfit
-                    catches your attention. You like it so much that you want to
-                    buy it right now, but the price is a little out of your
-                    financial range. Assume the same thing happened at a party,
-                    but you're not sure if you should question the other
-                    individual.
+                    MindScribe is an AI-driven personal growth companion
+                    designed to help individuals achieve their goals and
+                    cultivate a positive mindset. Our platform combines
+                    cognitive behavioral therapy techniques with mindfulness
+                    practices to empower users to overcome challenges, manage
+                    stress, and enhance well-being. Whether you're striving for
+                    personal or professional development, MindScribe provides
+                    personalized insights and actionable recommendations to
+                    support your journey. With its intuitive interface and
+                    interactive exercises, our platform fosters self-awareness
+                    and resilience, enabling you to thrive in all aspects of
+                    life. Start your journey towards a happier and healthier you
+                    with MindScribe by your side.
                   </h6>
                   <Link to="/comming-soon">
                     <button className="button2 d-block mx-auto mt-4">
@@ -183,13 +180,123 @@ const Product = () => {
             </div>
             <div className="col-12 col-md-6 p-0 mb-0 bg-dark">
               <div className="h-100">
-                <iframe
-                  className="bg-dark"
-                  src="https://www.youtube.com/embed/MrJkZZyOLw8"
-                  title="Sensevoice"
-                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                  allowFullScreen
-                ></iframe>
+                <img src={Image4} alt="product_image" />
+              </div>
+            </div>
+          </div>
+          {/* fifth product */}
+          <div className="row mb-5 m-md-0">
+            <div className="col-12 col-md-6 p-0 mb-0 bg-dark">
+              <div className="h-100">
+                <img src={Image5} alt="product_image" />
+              </div>
+            </div>
+            <div className="col-12 col-md-6 details-3 py-5 d-flex flex-column align-items-center justify-content-center">
+              <div>
+                <div className="px-4">
+                  <p className="title text-center pb-2">CryoCraft</p>
+                  <h3 className="sub-title text-start mb-3 text-center text-sm-start">
+                    Explore the uncharted realms of creativity with CryoCraft's
+                    AI-powered art generation tools.
+                  </h3>
+                  <h6 className="description text-center text-sm-start">
+                    CryoCraft is a revolutionary AI-powered art generation
+                    platform that redefines the boundaries of creativity. Our
+                    platform leverages deep learning algorithms to analyze
+                    artistic styles and generate original artworks with stunning
+                    visual appeal. Whether you're an artist, designer, or
+                    hobbyist, CryoCraft provides a diverse range of tools and
+                    filters to spark your imagination and bring your ideas to
+                    life. From abstract compositions to photorealistic
+                    landscapes, our platform offers endless possibilities for
+                    artistic expression and exploration. Join the evolution of
+                    art with CryoCraft as your creative muse.
+                  </h6>
+                  <Link to="/comming-soon">
+                    <button className="button2 d-block mx-auto mt-4">
+                      Details
+                    </button>
+                  </Link>
+                </div>
+              </div>
+            </div>
+          </div>
+          {/* sixth product */}
+          <div className="row m-0">
+            <div className="col-12 col-md-6 details-4 py-5 d-flex flex-column align-items-center justify-content-center">
+              <div>
+                <div className="px-4">
+                  <p className="title text-center pb-2">VitaFit</p>
+                  <h3 className="sub-title text-start mb-3 text-center text-sm-start">
+                    Achieve your fitness goals with VitaFit's AI-driven
+                    personalized training platform.
+                  </h3>
+                  <h6 className="description text-center text-sm-start">
+                    VitaFit is an AI-driven personalized training platform
+                    designed to optimize your fitness journey and maximize
+                    results. Our platform combines cutting-edge machine learning
+                    algorithms with expert fitness coaching to deliver tailored
+                    workout plans and nutritional guidance based on your unique
+                    goals and preferences. Whether you're looking to build
+                    muscle, lose weight, or improve overall health, VitaFit
+                    provides the tools and support you need to succeed. With its
+                    intuitive workout tracker and progress analytics, our
+                    platform keeps you motivated and accountable every step of
+                    the way. Take charge of your fitness with VitaFit and unlock
+                    your full potential.
+                  </h6>
+                  <Link to="/comming-soon">
+                    <button className="button2 d-block mx-auto mt-4">
+                      Details
+                    </button>
+                  </Link>
+                </div>
+              </div>
+            </div>
+            <div className="col-12 col-md-6 p-0 mb-0 bg-dark">
+              <div className="h-100">
+                <img src={Image6} alt="product_image" />
+              </div>
+            </div>
+          </div>
+          {/* seventh product */}
+          <div className="row mb-5 m-md-0">
+            <div className="col-12 col-md-6 p-0 mb-0 bg-dark">
+              <div className="h-100">
+                <img src={Image7} alt="product_image" />
+              </div>
+            </div>
+            <div className="col-12 col-md-6 details-3 py-5 d-flex flex-column align-items-center justify-content-center">
+              <div>
+                <div className="px-4">
+                  <p className="title text-center pb-2">QuantumCraft</p>
+                  <h3 className="sub-title text-start mb-3 text-center text-sm-start">
+                    Embark on a quantum computing journey with QuantumCraft's
+                    innovative AI-powered quantum development platform.
+                  </h3>
+                  <h6 className="description text-center text-sm-start">
+                    QuantumCraft is a pioneering quantum development platform
+                    that empowers researchers and developers to explore the
+                    potential of quantum computing with advanced AI
+                    capabilities. Our platform provides a comprehensive suite of
+                    tools for quantum algorithm design, simulation, and
+                    optimization, enabling users to tackle complex computational
+                    problems with unprecedented speed and efficiency. Whether
+                    you're developing quantum algorithms for optimization,
+                    cryptography, or machine learning, QuantumCraft offers the
+                    resources you need to push the boundaries of computational
+                    science. With its intuitive interface and scalable
+                    infrastructure, our platform accelerates the pace of quantum
+                    innovation and drives breakthroughs in AI-driven quantum
+                    computing. Join us on the frontier of quantum technology
+                    with QuantumCraft.
+                  </h6>
+                  <Link to="/comming-soon">
+                    <button className="button2 d-block mx-auto mt-4">
+                      Details
+                    </button>
+                  </Link>
+                </div>
               </div>
             </div>
           </div>

@@ -1,10 +1,10 @@
 import React from "react";
 import {
   FaFacebook,
-  FaInstagram,
+  FaGithub,
+  FaGlobeAfrica,
   FaLinkedin,
-  FaTwitter,
-  FaYoutube,
+  FaMediumM,
 } from "react-icons/fa";
 import { Link } from "react-router-dom";
 import "./Footer.scss";
@@ -30,19 +30,25 @@ const Footer = () => {
               <div>
                 <h5 className="mb-4">Products</h5>
                 <Link to="/">
-                  <h6>Sensevoice</h6>
+                  <h6>SynthAI</h6>
                 </Link>
                 <Link to="/">
-                  <h6>Sensebots</h6>
+                  <h6>NeuroSync</h6>
                 </Link>
                 <Link to="/">
-                  <h6>HIA</h6>
+                  <h6>LingoGenius</h6>
                 </Link>
                 <Link to="/">
-                  <h6>Airvoice</h6>
+                  <h6>MindScribe</h6>
                 </Link>
                 <Link to="/">
-                  <h6>InsideSense</h6>
+                  <h6>VitaFat</h6>
+                </Link>
+                <Link to="/">
+                  <h6>QantumCarft</h6>
+                </Link>
+                <Link to="/">
+                  <h6>CryoCraft</h6>
                 </Link>
               </div>
             </div>
@@ -52,19 +58,19 @@ const Footer = () => {
             <div className="col-6 col-md-3 mt-5 mt-md-0">
               <div>
                 <h5 className="mb-4">Company</h5>
-                <Link to="/">
+                <Link to="/about">
                   <h6>About US</h6>
                 </Link>
-                <Link to="/">
+                <Link to="/coming-soon">
                   <h6>Leadership</h6>
                 </Link>
-                <Link to="/">
+                <Link to="/career">
                   <h6>Career</h6>
                 </Link>
-                <Link to="/">
+                <Link to="/coming-soon">
                   <h6>Terms & Condition</h6>
                 </Link>
-                <Link to="/">
+                <Link to="/coming-soon">
                   <h6>Privacy Policy</h6>
                 </Link>
               </div>
@@ -96,13 +102,10 @@ const Footer = () => {
               <div>
                 <h5 className="mb-4">Services</h5>
                 <Link to="/comming-soon">
-                  <h6>Shopify</h6>
+                  <h6>Voice Detection</h6>
                 </Link>
                 <Link to="/comming-soon">
-                  <h6>Wordpress</h6>
-                </Link>
-                <Link to="/comming-soon">
-                  <h6>UI/UX Design</h6>
+                  <h6>Image Processing</h6>
                 </Link>
               </div>
             </div>
@@ -129,28 +132,25 @@ const Footer = () => {
             <div className="col-12 col-md-4 mt-4 mt-md-0">
               <div className="d-flex gap-5 justify-content-center justify-content-md-end align-items-center">
                 <Link
-                  to="https://www.facebook.com/intelsenseai"
+                  to="https://www.facebook.com/imtious.midul/"
                   target="_blank"
                 >
                   <FaFacebook />
                 </Link>
-                <Link to="/" target="_blank">
-                  <FaTwitter />
+                <Link to="https://github.com/Imtious-coder" target="_blank">
+                  <FaGithub />
                 </Link>
-                <Link
-                  to="https://www.linkedin.com/company/intelsenseai"
-                  target="_blank"
-                >
+                <Link to="https://www.linkedin.com/in/imtious/" target="_blank">
                   <FaLinkedin />
                 </Link>
+                <Link to="https://medium.com/@imtious.islam.me" target="_blank">
+                  <FaMediumM />
+                </Link>
                 <Link
-                  to="https://www.youtube.com/@intelsenseai5288"
+                  to="https://imtious-portfolio.netlify.app/"
                   target="_blank"
                 >
-                  <FaYoutube />
-                </Link>
-                <Link to="/" target="_blank">
-                  <FaInstagram />
+                  <FaGlobeAfrica />
                 </Link>
               </div>
             </div>
