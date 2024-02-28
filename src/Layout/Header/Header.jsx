@@ -123,31 +123,31 @@ const Header = () => {
                           About Us
                         </Link>
                       </li>
-                      <li>
+                      {/* <li>
                         <Link
                           to="/investor-relation"
                           className="dropdown-item py-2"
                         >
                           Investor Realation
                         </Link>
-                      </li>
+                      </li> */}
                     </ul>
                   </div>
                 </div>
-                {/* <Link
+                <Link
                   to="/investor-relation"
                   className="nav-link fw-bold"
                   aria-current="page"
                 >
                   Investor Realation
-                </Link> */}
-                <Link
+                </Link>
+                {/* <Link
                   to="/blog"
                   className="nav-link fw-bold"
                   aria-current="page"
                 >
                   Blogs
-                </Link>
+                </Link> */}
                 <Link
                   to="/contact"
                   className="nav-link fw-bold"

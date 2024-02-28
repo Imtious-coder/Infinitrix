@@ -1,9 +1,9 @@
 import React from "react";
+import WorkImage from "../../Assets/images/ABOUT/1.jpg";
 import InfoImage1 from "../../Assets/images/ABOUT/info-image-1.svg";
 import InfoImage from "../../Assets/images/ABOUT/info-image.svg";
 import HeroImage from "../../Assets/images/ABOUT/left-hero-img.svg";
 import HistoryImage from "../../Assets/images/ABOUT/team_intelsense_ai_.jpg";
-import WorkImage from "../../Assets/images/ABOUT/work.webp";
 import Meta from "../../components/Meta/Meta";
 import "./About.scss";
 
@@ -15,13 +15,13 @@ const About = () => {
         {/* HERO SECTION */}
         <section>
           <div className="row">
-            <div className="hero-left col-12 col-md-6 d-flex align-items-center">
+            {/* <div className="hero-left col-12 col-md-6 d-flex align-items-center">
               <h2 className="heading text-sm-start fw-bold white px-4 py-5 py-md-0 mb-0">
                 Widening the boundary of Imagination Creating the outline of the
                 future.
               </h2>
-            </div>
-            <div className="col-12 col-md-6 background-1E1F2E white px-4 py-4">
+            </div> */}
+            <div className="col-12 background-1E1F2E white px-5 py-5">
               <div className="hero-right">
                 <h2 className="heading mb-0">WHO WE ARE</h2>
                 <img
@@ -30,17 +30,19 @@ const About = () => {
                   className="d-block mx-auto my-5"
                 />
                 <p className="fw-bold text-center text-sm-start">
-                  At Intelsense AI, we are a team of highly skilled and
-                  passionate individuals dedicated to creating cutting-edge AI
-                  solutions for businesses across various industries. Our team
-                  consists of data scientists, software engineers, and AI
-                  specialists who work tirelessly to develop innovative products
-                  that drive growth and efficiency.
+                  At Infinitrix AI, we're a dedicated team of passionate
+                  professionals committed to crafting cutting-edge AI solutions
+                  tailored for diverse industries. Our multidisciplinary team
+                  includes data scientists, software engineers, and AI
+                  specialists, collaborating tirelessly to pioneer innovative
+                  products that propel growth and enhance operational
+                  efficiency.
                 </p>
                 <p className="fw-bold text-center text-sm-start">
-                  Our team consists of data scientists, software engineers, and
-                  AI specialists who work tirelessly to develop innovative
-                  products that drive growth and efficiency.
+                  Our diverse team of experts, including data scientists,
+                  software engineers, and AI specialists, is driven by a shared
+                  mission: to develop groundbreaking products that drive growth
+                  and efficiency across industries.
                 </p>
               </div>
             </div>
@@ -55,19 +57,19 @@ const About = () => {
                   OUR STORY
                 </h3>
                 <p>
-                  Intelsense AI was founded with a vision to revolutionize the
-                  way businesses operate by leveraging the power of artificial
-                  intelligence. Our journey began with a small group of AI
-                  enthusiasts 10 years ago, who shared a common passion for
-                  developing innovative solutions that could make a real
-                  difference in the world.
+                  Infinitrix was founded with a bold vision: to transform
+                  business operations through the unparalleled capabilities of
+                  artificial intelligence. Our journey began a decade ago,
+                  driven by a tight-knit group of AI enthusiasts united by a
+                  shared passion for pioneering solutions that create tangible
+                  impact.
                 </p>
                 <p>
-                  Over the years, our team has grown, and so has our expertise.
-                  Today, we are proud to have developed some of the most
-                  advanced AI solutions in the market, helping businesses to
-                  streamline their operations, increase productivity, and drive
-                  growth.
+                  Over the years, our team has expanded, evolving alongside our
+                  expertise. Today, we take immense pride in delivering some of
+                  the most advanced AI solutions available, empowering
+                  businesses to optimize operations, boost productivity, and
+                  foster sustainable growth.
                 </p>
               </div>
               <div className="col-12 col-sm-6 ps-sm-5 mt-5">
@@ -80,12 +82,13 @@ const About = () => {
                   WHAT WE DO
                 </h3>
                 <p>
-                  Intelsense.ai provides AI services, solutions, and products to
-                  help organizations across different industries to implement AI
-                  today. Our AI research and development facilities in
-                  Bangladesh, US and Canada allow us to solve today’s complex
-                  problems, customize real-life AI applications for positive
-                  future impact, and drive future innovation.
+                  Infinitrix offers comprehensive AI services, solutions, and
+                  products tailored to assist organizations across diverse
+                  industries in implementing AI effectively. With AI research
+                  and development centers located in Bangladesh, the US, and
+                  Canada, we are uniquely positioned to address complex
+                  challenges, customize real-world AI applications for immediate
+                  impact, and spearhead future innovations.
                 </p>
               </div>
             </div>
@@ -99,22 +102,23 @@ const About = () => {
                   OUR PURPOSE
                 </h3>
                 <p>
-                  At Intelsense AI, our purpose is to empower businesses with
-                  the latest AI technology so that they can thrive in the
-                  digital age. We believe that speech-based AI has the potential
-                  to transform the way businesses operate and help them achieve
-                  their full potential. We are committed to developing AI
-                  solutions that are accessible, easy to use, and can be
-                  integrated seamlessly into any existing business processes.
+                  At Infinitrix, our mission is to empower businesses with
+                  cutting-edge AI technology, enabling them to thrive in the
+                  digital era. We firmly believe that speech-based AI holds the
+                  key to revolutionizing business operations and unlocking their
+                  full potential. Our dedication lies in developing AI solutions
+                  that are not only accessible and user-friendly but also
+                  seamlessly integrable into existing business workflows.
                 </p>
                 <p>
-                  We believe in putting our customers first and working closely
-                  with them to understand their unique needs and challenges. By
-                  doing so, we can create customized solutions that address
-                  their specific pain points and help them achieve their
-                  business goals. We aim to simplify the communication process
-                  as much as possible and increase the efficient extraction of
-                  information.
+                  Customer-centricity is at the heart of our approach. We
+                  prioritize close collaboration with our clients to gain
+                  insights into their distinct needs and challenges. This
+                  enables us to tailor customized solutions that precisely
+                  address their pain points and propel them towards achieving
+                  their business objectives. Our aim is to simplify
+                  communication processes and enhance the efficient extraction
+                  of valuable information.
                 </p>
               </div>
               <div className="col-12 col-sm-6 ps-sm-5 mt-5">
@@ -127,11 +131,12 @@ const About = () => {
                   OUR MISSION
                 </h3>
                 <p>
-                  Our mission is to ensure that artificial general intelligence
-                  (AGI)-by which we mean highly autonomous systems that
-                  outperform humans at most humanity. We will attempt to
-                  directly build safe and beneficial AGI. but will also consider
-                  our mission fulfilled if our work achieve this outcome.
+                  Infinitrix's mission is to push the boundaries of AI
+                  innovation, creating highly autonomous systems that excel
+                  across diverse domains. We prioritize the development of AI
+                  solutions that are both safe and beneficial. Alternatively, we
+                  consider our mission accomplished if our efforts contribute to
+                  advancing this transformative outcome.
                 </p>
               </div>
             </div>
@@ -174,7 +179,7 @@ const About = () => {
           <div className="container-lg">
             <div className="row">
               <h2 className="heading fw-bold white mb-sm-5">
-                IntelsenseAI History and Timeline
+                Infinitrix History and Timeline
               </h2>
               {/* image */}
               <div className="col-12 col-md-5 px-5 ps-md-0 rounded-4">
@@ -193,7 +198,7 @@ const About = () => {
                     1990
                   </p>
                   <p className="info  fw-bold text-center text-sm-start">
-                    Founded By Rumman Arefin. Current CEO
+                    Founded By Imtious Islam. Current CEO
                   </p>
                 </div>
                 <div className="d-flex flex-column flex-sm-row gap-sm-5 mb-4 mb-sm-0">
@@ -201,8 +206,7 @@ const About = () => {
                     1999
                   </p>
                   <p className="info  fw-bold text-center text-sm-start">
-                    Introduced HIA. And got a huge success. Top 5 products of
-                    IntelsenseAI.
+                    Lorem ipsum dolor sit, amet consectetur adipisicing
                   </p>
                 </div>
                 <div className="d-flex flex-column flex-sm-row gap-sm-5 mb-4 mb-sm-0">
@@ -232,6 +236,16 @@ const About = () => {
                     Lorem ipsum dolor sit amet consectetur.
                   </p>
                 </div>
+                <div className="d-flex flex-column flex-sm-row gap-sm-5 mb-4 mb-sm-0">
+                  <p className="year  fw-bold text-center text-sm-start mb-0">
+                    2024
+                  </p>
+                  <p className="info  fw-bold text-center text-sm-start">
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                    Cum vitae sapiente consequatur. Beatae dignissimos eaque
+                    fuga autem minus rerum inventore.
+                  </p>
+                </div>
               </div>
             </div>
           </div>
@@ -250,11 +264,15 @@ const About = () => {
                   AREA OF OUR WORK
                 </h3>
                 <p>
-                  Composition of Machine Learning and Deep Learning Techniques
-                  in Computer Vision, Natural Language Processing
-                  productionalizing, Intelligence Chatbots. Domain Specific/Open
-                  Domain specific Recognition System . Virtual Assistance and
-                  Internet of things.
+                  Infinitrix specializes in integrating Machine Learning and
+                  Deep Learning techniques into various applications, including
+                  Computer Vision, Natural Language Processing, image and voice
+                  processing, and the productionalizing of intelligent Chatbots.
+                  Our expertise extends to developing Domain Specific and Open
+                  Domain recognition systems tailored to specific industry
+                  needs. Additionally, we offer solutions in Virtual Assistance
+                  and Internet of Things (IoT), ensuring seamless integration
+                  and enhanced performance in diverse environments.
                 </p>
               </div>
               <div className="col-12 col-md-4 px-5 px-md-0 pt-4 pt-md-0">
