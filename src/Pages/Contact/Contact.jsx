@@ -18,21 +18,21 @@ const Contact = () => {
                 <FaMapMarkerAlt className="fs-1" />
                 <h3 className="sub-heading text-start my-4">DHAKA OFFICE</h3>
                 <p className="mb-0">
-                  <strong>Address: </strong> House-60, Road-03, Block Niketon,
-                  Gulshan-1, Dhaka
+                  <strong>Address: </strong> Random-60, Fake-03, Gulshan-1,
+                  Dhaka
                 </p>
                 <p className="mb-0">
-                  <strong>Email us at: </strong> info@intelsense.ai
+                  <strong>Email us at: </strong> info@infinitrix.ai
                 </p>
                 <p>
-                  <strong>Phone: </strong> +8801625555007
+                  <strong>Phone: </strong> +88016*31****0
                 </p>
               </div>
               <div className="map">
                 <iframe
                   className="shadow-sm"
                   title="map"
-                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14605.102720640843!2d90.40753300346236!3d23.773195517369402!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3755c7829894dd41%3A0x7191fa7e24aa22b9!2sGulshan%201%2C%20Dhaka%201212!5e0!3m2!1sen!2sbd!4v1682589984033!5m2!1sen!2sbd"
+                  src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d3689755.584971723!2d90.49042480754629!3d24.291916647940443!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sbd!4v1709109142240!5m2!1sen!2sbd"
                   allowFullScreen=""
                   loading="lazy"
                   referrerPolicy="no-referrer-when-downgrade"
@@ -81,9 +81,8 @@ const Contact = () => {
                 />
                 <p className="agreement px-4 text-center">
                   By submitting this form , I agree to receive communication
-                  from IntelsenseAI in connection with enquery.My information
-                  will be processed in accordance with IntelsenceAI's Privacy
-                  Policy.
+                  from Infinitrix in connection with enquery.My information will
+                  be processed in accordance with Infinitrix's Privacy Policy.
                 </p>
                 <button
                   className="button2 mt-4 hvr-grow d-block mx-auto"

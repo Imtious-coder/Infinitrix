@@ -17,4 +17,4 @@
 # Work
 
 ###### Deleted unnecessary files & Comments. CSS file renamed as SCSS. React Router added to App.js. Components folder created. Pages folder created. Utils folder created. Layout folder created. Assets folder created. Images & Styles folder created inside Assets. Layout folder created & route added to app.js. Header & Footer folder-file created and added to layout file. Home folder-file created and route added to app.js. Meta folder-file created and used in Home file.
-# Intelsense
+# Infinitrix
