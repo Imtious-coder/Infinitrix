@@ -1,3 +1,9 @@
+# Infinitrix
+
+#### Preview: https://infinitrix.netlify.app/
+
+<a  href="https://infinitrix.netlify.app/"><img  width="100%"  height="100%"  src="./public/websiteImage.png"></a>
+
 # Packages Installed
 
 ###### Created react app with redux
@@ -14,7 +20,10 @@
 
 ###### Installed React Fast Marquee (npm i react-fast-marquee --save)
 
-# Work
+# Initial Work
 
 ###### Deleted unnecessary files & Comments. CSS file renamed as SCSS. React Router added to App.js. Components folder created. Pages folder created. Utils folder created. Layout folder created. Assets folder created. Images & Styles folder created inside Assets. Layout folder created & route added to app.js. Header & Footer folder-file created and added to layout file. Home folder-file created and route added to app.js. Meta folder-file created and used in Home file.
-# Infinitrix
+
+##### Tech & Tools: React.js, Tailwind CSS, Git, Github, & Netlify.
+
+###### Imtious Islam
